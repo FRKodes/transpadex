@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+@import "variables";
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "fonts";
+
+body{
+	padding-top: 50px;
+}
+
+.navbar-toggle{
+	float: left;
+	margin-right: 0;
+	margin-left: 15px;
+}
+.call-us{
+	display:inline-block;
+	float: right;
+	margin-right: 15px;
+	padding: 14px 0;
+	line-height: 22px;
+	height: 50px;
+}
+.main-banners-container{
+	background: red;
+	height: 180px;
+	.item{
+
+	}
+	p{
+		color: white;
+	}
+}
