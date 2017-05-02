@@ -5,22 +5,24 @@
 		<div class="row">
 			<div class="main-banners-container">
 				<div class="item">
-					<p>
+					<p class="asap">
 						<span class="one">Su aliado</span>
 						<span class="two">en transporte</span>
 						<span class="three">dedicado</span>
+						<span class="lines"><img src="images/lineas-titulares.svg" alt="lineas titulares"></span>
 					</p>
 				</div>
 			</div>
 
-			<div class="container">	
-				<h2 class="home-title">SERVICIOS QUE TE OFRECEMOS</h2>
+			<div class="container">
+				<h2 class="home-title oswald">SERVICIOS QUE TE OFRECEMOS</h2>
 				<div class="home-services-container">
 					<div class="item">
 						<div class="service"><a href="#"><img src="/images/fletes-express.svg" alt="servicio fletes express"><span class="description">fletes express a <br>toda a república</span></a></div>
 						<div class="service"><a href="#"><img src="/images/almacenaje-y-distribucion.svg" alt="servicio almacenaje y distribucion"><span class="description">almacenaje <br>y distribución</span></a></div>
 						<div class="service"><a href="#"><img src="/images/camion-tonelada.svg" alt="servicio camion una tonelada"><span class="description">camión <br>1 tonelada</span></a></div>
 						<div class="service"><a href="#"><img src="/images/camion-35-toneladas.svg" alt="servicio camion 3 y 5 toneladas"><span class="description">camión <br>3 y 5 toneladas</span></a></div>
+						<div class="service hidden-xs hidden-sm"><a href="#"><img src="/images/camion-10-toneladas.svg" alt="servicio camion 10 toneladas"><span class="description">camion<br>10 toneladas</span></a></div>
 					</div>
 					<div class="item">
 						
@@ -32,7 +34,7 @@
 		<div class="row who-we-are">
 			<div class="half hidden-xs"></div>
 			<div class="container">
-				<h2 class="text-title">¿Quiénes somos?</h2>
+				<h2 class="text-title asap">¿Quiénes somos?</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit unde at dolorem doloremque accusantium nisi, numquam voluptas, officiis quae ullam quia eligendi dolorum voluptatem, soluta totam quisquam asperiores reprehenderit expedita.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit unde at dolorem doloremque accusantium nisi, numquam voluptas, officiis quae ullam quia eligendi dolorum voluptatem, soluta totam quisquam asperiores reprehenderit expedita.</p>
 				<p class="more hidden-sm"><span class="icon-mas"></span></p>
@@ -43,8 +45,8 @@
 		<div class="row _25-years">
 			<div class="container">
 				<div class="col-sm-10 col-sm-offset-1">
-					<p class="_25-years-text hidden-sm hidden-md hidden-lg">Más de <span class="one">25 años</span><br>de <span class="one">experiencia</span></p>
-					<p class="_25-years-text hidden-xs">Más de <span>25 años</span> de experiencia</p>
+					<p class="_25-years-text hidden-sm hidden-md hidden-lg asap">Más de <span class="one">25 años</span><br>de <span class="one">experiencia</span></p>
+					<p class="_25-years-text hidden-xs asap">Más de <span>25 años</span> de experiencia</p>
 					<p class="text-center certs">
 						<img class="cert hidden-xs" src="images/neec.svg" alt="neec">
 						<img class="cert iso hidden-xs" src="images/ISO-98.svg" alt="ISO 98">
@@ -69,14 +71,14 @@
 			<div class="photo-home-service">
 			</div>
 			<div class="info-service">
-				<h2>Fletes</h2>
+				<h2 class="asap">Fletes</h2>
 				<h3 class="mayus">Cobertura nacional</h3>
 			</div>
 		</div>
 		
 		<div class="row storage">
 			<div class="info-service">
-				<h2>Almacenamiento y distribución</h2>
+				<h2 class="asap">Almacenamiento y distribución</h2>
 				<h3 class="mayus">Contamos con más de 3,000 mts2 en la ciudad de Guadalajara y México.</h3>
 			</div>
 			<div class="photo-home-service"></div>
@@ -114,7 +116,7 @@
 			</div>
 		</div>
 
-		<div class="row home-map">
+		<div class="row home-map" id="map">
 			
 		</div>
 	</div>

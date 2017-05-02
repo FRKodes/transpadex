@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600)
+@import url('https://fonts.googleapis.com/css?family=Asap|Oswald|Montserrat');
 
 @import "_variables"
 
@@ -6,23 +6,59 @@
 
 @import "fonts"
 
+.oswald
+	font-family: 'Oswald', sans-serif
+.asap
+	font-family: 'Asap', sans-serif
+.montserrat
+	font-family: 'Montserrat', sans-serif
+.red
+	color: $red
 body
 	padding-top: 50px
+	font-family: 'Montserrat', sans-serif
 .white
 	color: white
 .navbar-toggle
 	float: left
 	margin-right: 0
 	margin-left: 15px
-
 .call-us
-	display: inline-block
 	float: right
 	margin-right: 15px
 	padding: 14px 0
 	line-height: 22px
 	height: 50px
-
+	display: flex
+	align-items: center
+	.icon-telefono
+		margin-right: 3px
+	a
+		font-size: .9em
+.navbar-default
+	border-bottom: 2px solid black
+	.container
+		border-bottom: 4px solid $red
+.navbar-default
+	.navbar-toggle
+		border: none
+		.icon-bar
+			background: black
+		&:hover
+			background: transparent
+	.navbar-collapse
+		border-color: black
+	.navbar-brand
+		margin-left: auto
+		margin-right: auto
+		padding: 10px 15px
+		img
+			width: 110px
+			height: auto
+			display: inline-block
+.container > .navbar-header
+	display: flex
+	justify-content: space-between
 .main-banners-container
 	height: 180px
 	.item
@@ -35,6 +71,9 @@ body
 		width: 185px
 		padding-top: 50px
 		margin-left: 5%
+		text-shadow: 2px 2px 8px #000
+		position: relative
+		z-index: 1
 		span
 			display: block
 			line-height: 1em
@@ -45,8 +84,21 @@ body
 			text-align: right
 		span.three
 			font-size: 3em
+		.lines
+			position: absolute
+			width: 85px
+			height: auto
+			overflow: hidden
+			bottom: -35px
+			right: -10px
+			z-index: -1
+			img
+				width: 100%
+				height: auto
+				display: block
 .home-title
 	text-align: center
+	font-size: 1.6em
 .home-services-container
 	.item
 		.service
@@ -136,10 +188,68 @@ body
 .home-map
 	height: 180px
 	background: gray
-
+footer
+	padding: 20px 0
+	.title
+		font-size: 1.4em
+		text-align: center
+	ul.links
+		padding: 0
+		margin: 0
+		li
+			display: block
+	a
+		color: $gris
+	ul.social
+		text-align: center
+		padding: 0
+		li
+			display: inline-block
+			margin: 10px 10px 20px 0
+			font-size: 1.6em
+	.logo-footer
+		text-align: center
+		img
+			width: 160px
+			height: auto
+			display: inline-block
+	._25-years-footer
+		text-align: center
+		img
+			width: 110px
+			height: auto
+			display: inline-block
 @media screen and (min-width: 768px)
+	.navbar-default
+		.container
+			border: none
+		.navbar-collapse
+			padding: 10px 0
+		.navbar-nav > .active > a
+			background: none
+			border-bottom: 1px solid black
+			padding-bottom: 4px
+		.navbar-brand
+			padding-top: 20px
+			img
+				width: 125px
+	.call-us-big
+		background: $red
+		color: white
+		padding: 3px 0
+		font-size: 1.2em
+	.navbar-nav
+		float: right
 	.main-banners-container
 		height: 460px
+		p
+			padding-top: 120px
+			font-size:  1.6em
+			width: 220px
+			.lines
+				bottom: -52px
+				right: -90px
+				width: 140px
 	.home-services-container
 		.item
 			.service
@@ -231,15 +341,30 @@ body
 			margin: 20px auto
 			float: none
 			display: inline-block
+	.home-map
+		height: 320px
+	footer
+		.title
+			text-align: left
+		ul.social
+			text-align: left
+			li
+				margin: 20px 10px 0 0
 @media screen and (min-width: 992px)
 	.main-banners-container
 		height: 540px
+		p
+			padding-top: 185px
+			font-size:  2em
+			width: 280px
+			.lines
+				bottom: -30px
+				right: -110px
+				width: 135px
 	.home-services-container
 		.item
 			.service
-				width: 16%
-				img
-					width: 80%
+				width: 19%
 				.description
 					margin: 5px auto 0 auto
 					line-height: 1.3em
@@ -263,3 +388,25 @@ body
 		width: 60%
 		text-align: left
 		font-size: 1.2em
+	.branches
+		padding-top: 60px
+		.item
+			.title
+				padding-left: 40px
+			.address
+				padding-left: 40px
+	footer
+		.social-column
+			.title
+				text-align: center
+		ul.social
+			text-align: center
+			li
+				margin: 20px 10px 0 0
+@media screen and (min-width: 1200px)
+	.row.who-we-are
+		.back-image
+			right: 30px
+			width: 570px
+		p
+			width: 420px

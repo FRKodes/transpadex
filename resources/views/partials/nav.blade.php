@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
@@ -8,31 +7,25 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Transpadex</a>
-			<div class="call-us">
-				<span class="icon-telefono"></span>
-				<a href="">Llámanos</a>
+			<a class="navbar-brand" href="#"><img src="images/logo-transpadex.svg" alt="logo transpadex"></a>
+			<div class="call-us hidden-sm hidden-md hidden-lg">
+				<span class="icon-telefono red"></span>
+				<a href="#" class="red call-us-header">Llámanos</a>
 			</div>
 		</div>
 	
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
-						<li role="separator" class="divider"></li>
-						<li class="dropdown-header">Nav header</li>
-						<li><a href="#">Separated link</a></li>
-						<li><a href="#">One more separated link</a></li>
-					</ul>
-				</li>
+				<li class="active"><a href="{{ url('/') }}">Inicio</a></li>
+				<li><a href="{{ url('servicios') }}">Servicios</a></li>
+				<li><a href="{{ url('quienes-somos') }}">Quienes Somos</a></li>
+				<li><a href="{{ url('flotillas') }}">Flotillas</a></li>
+				<li><a href="{{ url('clientes') }}">Clientes</a></li>
+				<li><a href="{{ url('contacto') }}">Contacto</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
+	</div>
+	<div class="container-fluid hidden-xs call-us-big">
+		<div class="container text-right"><span class="icon-telefono"></span> &nbsp;01 800 347 60 36</div>
 	</div>
 </nav>
