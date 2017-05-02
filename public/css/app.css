@@ -8267,6 +8267,12 @@ footer ._25-years-footer img {
 }
 
 @media screen and (min-width: 992px) {
+  .navbar-default .navbar-brand {
+    padding-top: 15px;
+  }
+  .navbar-default .navbar-brand img {
+    width: 150px;
+  }
   .main-banners-container {
     height: 540px;
   }

@@ -87,7 +87,7 @@
 		<div class="row branches">
 			<div class="container">
 				<div class="item col-sm-4">
-					<div class="title">OFICINAS GENERALES</div>
+					<div class="title oswald">OFICINAS GENERALES</div>
 					<div class="address">
 						Carretera a Chapala No. 5010<br>
 						Col. Paseos del Lago.<br>
@@ -96,7 +96,7 @@
 					<img src="images/jalisco.svg" alt="jalisco" class="state">
 				</div>
 				<div class="item col-sm-4">
-					<div class="title">SUCURSAL MONTERREY</div>
+					<div class="title oswald">SUCURSAL MONTERREY</div>
 					<div class="address">
 						Av. Ignacio Sepúlveda No. 326<br>
 						Col. La encarnación<br>
@@ -105,7 +105,7 @@
 					<img src="images/monterrey.svg" alt="monterrey" class="state">
 				</div>
 				<div class="item col-sm-4">
-					<div class="title">SUCURSAL MÉXICO</div>
+					<div class="title oswald">SUCURSAL MÉXICO</div>
 					<div class="address">
 						Blvd. A López Mateos No. 646<br>
 						Col. Insurgentes<br>
