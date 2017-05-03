@@ -7757,6 +7757,14 @@ button.close {
   content: "\6d";
 }
 
+.italic {
+  font-style: italic;
+}
+
+.mayus {
+  text-transform: uppercase;
+}
+
 .oswald {
   font-family: 'Oswald', sans-serif;
 }
@@ -7771,6 +7779,10 @@ button.close {
 
 .red {
   color: #d0332a;
+}
+
+.m-b-40 {
+  margin-bottom: 40px;
 }
 
 body {
@@ -8046,6 +8058,108 @@ body {
   background: gray;
 }
 
+/*SERVICIOS*/
+.section-top-banner {
+  height: 130px;
+  background: rgba(128, 128, 128, 0.9);
+  display: block;
+}
+
+.section-top-banner.servicios {
+  background: transparent url(../images/servicios-banner-plataforma.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.section-top-banner p {
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+  line-height: .9em;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.section-title {
+  color: black;
+  text-transform: uppercase;
+}
+
+.service-item {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-item .icon-service {
+  width: 36%;
+  display: inline-block;
+}
+
+.service-item .icon-service img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.service-item .info {
+  width: 58%;
+  display: inline-block;
+}
+
+.service-item .info .title {
+  font-size: 1.2em;
+  color: black;
+}
+
+.storage-services {
+  background: transparent url(../images/quienes-somos-background.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 30px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.item-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  margin-bottom: 15px;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.item-container span {
+  font-size: 3em;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 12px;
+}
+
+.item-container p {
+  margin: 0;
+  font-size: .9em;
+  padding-right: 10px;
+}
+
 footer {
   padding: 20px 0;
 }
@@ -8255,6 +8369,26 @@ footer ._25-years-footer img {
   .home-map {
     height: 320px;
   }
+  /*SERVICIOS*/
+  .section-top-banner {
+    height: 340px;
+  }
+  .section-top-banner p {
+    font-size: 3.4em;
+    line-height: .9em;
+  }
+  .service-item .icon-service {
+    width: 25%;
+  }
+  .service-item .info {
+    width: 70%;
+  }
+  .service-item .info .title {
+    font-size: 1.8em;
+  }
+  .item-container p {
+    font-size: 1em;
+  }
   footer .title {
     text-align: left;
   }
@@ -8328,6 +8462,21 @@ footer ._25-years-footer img {
   .branches .item .address {
     padding-left: 40px;
   }
+  /*SERVICIOS*/
+  .section-top-banner {
+    height: 470px;
+  }
+  .section-top-banner p {
+    font-size: 5em;
+    margin-top: 240px;
+    margin-left: 10px;
+  }
+  .item-container {
+    margin-bottom: 25px;
+  }
+  .item-container p {
+    font-size: 1.1em;
+  }
   footer .social-column .title {
     text-align: center;
   }
@@ -8346,5 +8495,16 @@ footer ._25-years-footer img {
   }
   .row.who-we-are p {
     width: 420px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .section-top-banner {
+    height: 670px;
+  }
+  .section-top-banner p {
+    font-size: 6em;
+    margin-top: 340px;
+    margin-left: 0px;
   }
 }

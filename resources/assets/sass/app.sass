@@ -6,6 +6,10 @@
 
 @import "fonts"
 
+.italic
+	font-style: italic
+.mayus
+	text-transform: uppercase
 .oswald
 	font-family: 'Oswald', sans-serif
 .asap
@@ -14,6 +18,8 @@
 	font-family: 'Montserrat', sans-serif
 .red
 	color: $red
+.m-b-40
+	margin-bottom: 40px
 body
 	padding-top: 50px
 	font-family: 'Montserrat', sans-serif
@@ -188,6 +194,70 @@ body
 .home-map
 	height: 180px
 	background: gray
+/*SERVICIOS*/
+.section-top-banner
+	height: 130px
+	background: rgba(gray, .9)
+	display: block
+	&.servicios
+		background: transparent url(../images/servicios-banner-plataforma.jpg) no-repeat center center
+		background-size: cover
+	p
+		font-size: 2em
+		color: white
+		text-shadow: 2px 2px 8px #000
+		line-height: .9em
+		margin-top: 60px
+		margin-left: 30px
+h1
+	font-size: 2em
+.section-title
+	color: black
+	text-transform: uppercase
+.service-item
+	margin-bottom: 20px
+	margin-top: 30px
+	align-items: top
+	display: flex
+	justify-content: space-between
+	.icon-service
+		width: 36%
+		display: inline-block
+		img
+			width: 100%
+			height: auto
+			display: block
+	.info
+		width: 58%
+		display: inline-block
+		.title
+			font-size: 1.2em
+			color: black
+.storage-services
+	background: transparent url(../images/quienes-somos-background.jpg) no-repeat center center
+	background-size: cover
+	padding: 30px 0
+	margin-top: 30px
+	margin-bottom: 30px
+.item-container
+	display: flex
+	background: rgba(black, .6)
+	color: white
+	margin-bottom: 15px
+	height: 50px
+	align-items: center
+	padding: 5px 0
+	border-radius: 25px
+	width: 100%
+	span
+		font-size: 3em
+		margin-right: 10px
+		margin-left: 5px
+		margin-top: 12px
+	p
+		margin: 0
+		font-size: .9em
+		padding-right: 10px
 footer
 	padding: 20px 0
 	.title
@@ -343,6 +413,22 @@ footer
 			display: inline-block
 	.home-map
 		height: 320px
+	/*SERVICIOS*/
+	.section-top-banner
+		height: 340px
+		p
+			font-size: 3.4em
+			line-height: .9em
+	.service-item
+		.icon-service
+			width: 25%
+		.info
+			width: 70%
+			.title
+				font-size: 1.8em
+	.item-container
+		p
+			font-size: 1em
 	footer
 		.title
 			text-align: left
@@ -400,6 +486,17 @@ footer
 				padding-left: 40px
 			.address
 				padding-left: 40px
+	/*SERVICIOS*/
+	.section-top-banner
+		height: 470px
+		p
+			font-size: 5em
+			margin-top: 240px
+			margin-left: 10px
+	.item-container
+		margin-bottom: 25px
+		p
+			font-size: 1.1em
 	footer
 		.social-column
 			.title
@@ -415,3 +512,10 @@ footer
 			width: 570px
 		p
 			width: 420px
+@media screen and (min-width: 1800px)
+	.section-top-banner
+		height: 670px
+		p
+			font-size: 6em
+			margin-top: 340px
+			margin-left: 0px
