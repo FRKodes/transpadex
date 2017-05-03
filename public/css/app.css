@@ -7785,6 +7785,14 @@ button.close {
   margin-bottom: 40px;
 }
 
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-t-40 {
+  margin-top: 40px;
+}
+
 body {
   padding-top: 50px;
   font-family: 'Montserrat', sans-serif;
@@ -8070,6 +8078,11 @@ body {
   background-size: cover;
 }
 
+.section-top-banner.quienes-somos {
+  background: transparent url(../images/quienes-somos-banner-recepcion.jpg) no-repeat center top;
+  background-size: cover;
+}
+
 .section-top-banner p {
   font-size: 2em;
   color: white;
@@ -8158,6 +8171,73 @@ h1 {
   margin: 0;
   font-size: .9em;
   padding-right: 10px;
+}
+
+/*QUIENES SOMOS*/
+.quienes-somos p {
+  width: 140px;
+  margin-left: 0;
+  margin-top: 45px;
+}
+
+.history-item {
+  padding-left: 120px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.history-item .title {
+  font-size: 2em;
+  color: black;
+}
+
+.history-item.first-one {
+  background: transparent url(../images/speedy.svg) no-repeat left top;
+  background-size: 90px;
+}
+
+.history-item.second-one {
+  background: transparent url(../images/logo-transpadex.svg) no-repeat left 30px;
+  background-size: 100px;
+}
+
+.history-item .icon-flecha-abajo {
+  font-size: 2em;
+  margin-left: 50px;
+}
+
+.item {
+  margin-bottom: 30px;
+}
+
+.item .title {
+  font-size: 1.8em;
+  color: black;
+  padding-left: 10px;
+  background: transparent url(../images/diagonal.svg) no-repeat -12px top;
+}
+
+.item .title.bg-triangle {
+  background: transparent url(../images/bullet.svg) no-repeat left 15px;
+  background-size: 12px;
+}
+
+.item-advantage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.item-advantage span {
+  margin-right: 10px;
+  font-size: 2em;
 }
 
 footer {

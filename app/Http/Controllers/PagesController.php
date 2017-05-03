@@ -15,4 +15,10 @@ class PagesController extends Controller
 	{
 		return View('pages.servicios');
 	}
+	
+	public function quienes_somos()
+	{
+		return View('pages.quienes-somos');
+	}
+
 }

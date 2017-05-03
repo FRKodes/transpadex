@@ -13,3 +13,4 @@
 
 Route::get('/', 'PagesController@index');
 Route::get('servicios', 'PagesController@servicios');
+Route::get('quienes-somos', 'PagesController@quienes_somos');
