@@ -26,4 +26,14 @@ class PagesController extends Controller
 		return View('pages.flotillas');
 	}
 
+	public function clientes()
+	{
+		return View('pages.clientes');
+	}
+
+	public function contacto()
+	{
+		return View('pages.contacto');
+	}
+
 }

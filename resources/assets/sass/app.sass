@@ -32,6 +32,12 @@
 	padding-top: 20px
 .p-b-20
 	padding-bottom: 20px
+.p-0
+	padding: 0
+.p-r-0
+	padding-right: 0
+.xs-p-l-0-sm-p-l-15
+	padding-left: 0
 body
 	padding-top: 50px
 	font-family: 'Montserrat', sans-serif
@@ -222,6 +228,11 @@ body
 		background-size: cover
 		p
 			text-align: center
+	&.contacto
+		background: transparent url(../images/banner-contacto.jpg) no-repeat center center
+		background-size: cover
+		p
+			text-align: center
 	p
 		font-size: 2em
 		color: white
@@ -339,6 +350,49 @@ h1.title-top
 		font-size: .9em
 		line-height: 1.3em
 		padding: 10px 0
+/*CONTACTO*/
+#contactForm
+	padding-top: 30px
+	padding-bottom: 30px
+.form-control
+	border-radius: 0
+textarea
+	resize: none
+.submit
+	background-color: $back-fletes
+	border-color: $back-fletes
+	border-radius: 0
+	padding: 6px 24px
+	margin-bottom: 40px
+	&:active
+		background-color: rgba($back-fletes, .6)
+		border-color: rgba($back-fletes, .6)
+	&:hover
+		background-color: rgba($back-fletes, .9)
+		border-color: rgba($back-fletes, .9)
+	&:focus
+		background-color: rgba($back-fletes, .8)
+		border-color: rgba($back-fletes, .8)
+	&:visited
+		background-color: rgba($back-fletes, .9)
+		border-color: rgba($back-fletes, .9)
+	
+.branch-item
+	.branch-photo
+		height: 219px
+		padding: 0
+		background-position: center center
+		&.gdl
+			background-image: url(../images/oficinas-generales-guadalajara.jpg)
+			background-size: cover
+	.branch-info
+		padding: 20px 15px 0 15px
+		overflow: hidden
+		.map
+			height: 100px
+			background-color: purple
+			width: 114%
+			margin-left: -7%
 footer
 	padding: 20px 0
 	.title
@@ -371,6 +425,8 @@ footer
 			height: auto
 			display: inline-block
 @media screen and (min-width: 768px)
+	.xs-p-l-0-sm-p-l-15
+		padding-left: 15px
 	.navbar-default
 		.container
 			border: none
@@ -580,6 +636,19 @@ footer
 			text-align: left
 			li
 				margin: 20px 10px 0 0
+	/*CONTACTO*/
+	h2.title-top
+		margin-top: 10px
+		margin-bottom: 10px
+	.branch-item
+		.branch-photo
+			height: 268px
+		.branch-info
+			padding: 20px 15px 0 15px
+			.address
+				margin-left: 20px
+			.map
+				height: 150px
 @media screen and (min-width: 992px)
 	.navbar-default
 		.navbar-brand
@@ -676,6 +745,27 @@ footer
 	.text-box
 		margin-top: 100px
 		padding-left: 50px
+	/*CONTACTO*/
+	.form-block
+		background: transparent url(../images/contacto-image.png) no-repeat left bottom
+		background-size: 500px
+	.branch-item
+		.branch-photo
+			height: 432px
+		.branch-info
+			padding: 0 15px 0 15px
+			overflow: hidden
+			.title-top
+				margin-top: 0
+				margin-bottom: 20px
+				background-color: $red
+				width: 110%
+				margin-left: -5%
+				padding: 10px 0
+			.address
+				margin-left: 50px
+			.map
+				height: 260px
 	footer
 		.social-column
 			.title

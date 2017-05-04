@@ -7809,6 +7809,18 @@ button.close {
   padding-bottom: 20px;
 }
 
+.p-0 {
+  padding: 0;
+}
+
+.p-r-0 {
+  padding-right: 0;
+}
+
+.xs-p-l-0-sm-p-l-15 {
+  padding-left: 0;
+}
+
 body {
   padding-top: 50px;
   font-family: 'Montserrat', sans-serif;
@@ -8108,6 +8120,15 @@ body {
   text-align: center;
 }
 
+.section-top-banner.contacto {
+  background: transparent url(../images/banner-contacto.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.section-top-banner.contacto p {
+  text-align: center;
+}
+
 .section-top-banner p {
   font-size: 2em;
   color: white;
@@ -8296,6 +8317,71 @@ h1.title-top {
   padding: 10px 0;
 }
 
+/*CONTACTO*/
+#contactForm {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit {
+  background-color: #443c3a;
+  border-color: #443c3a;
+  border-radius: 0;
+  padding: 6px 24px;
+  margin-bottom: 40px;
+}
+
+.submit:active {
+  background-color: rgba(68, 60, 58, 0.6);
+  border-color: rgba(68, 60, 58, 0.6);
+}
+
+.submit:hover {
+  background-color: rgba(68, 60, 58, 0.9);
+  border-color: rgba(68, 60, 58, 0.9);
+}
+
+.submit:focus {
+  background-color: rgba(68, 60, 58, 0.8);
+  border-color: rgba(68, 60, 58, 0.8);
+}
+
+.submit:visited {
+  background-color: rgba(68, 60, 58, 0.9);
+  border-color: rgba(68, 60, 58, 0.9);
+}
+
+.branch-item .branch-photo {
+  height: 219px;
+  padding: 0;
+  background-position: center center;
+}
+
+.branch-item .branch-photo.gdl {
+  background-image: url(../images/oficinas-generales-guadalajara.jpg);
+  background-size: cover;
+}
+
+.branch-item .branch-info {
+  padding: 20px 15px 0 15px;
+  overflow: hidden;
+}
+
+.branch-item .branch-info .map {
+  height: 100px;
+  background-color: purple;
+  width: 114%;
+  margin-left: -7%;
+}
+
 footer {
   padding: 20px 0;
 }
@@ -8350,6 +8436,9 @@ footer ._25-years-footer img {
 }
 
 @media screen and (min-width: 768px) {
+  .xs-p-l-0-sm-p-l-15 {
+    padding-left: 15px;
+  }
   .navbar-default .container {
     border: none;
   }
@@ -8620,6 +8709,23 @@ footer ._25-years-footer img {
   footer ul.social li {
     margin: 20px 10px 0 0;
   }
+  /*CONTACTO*/
+  h2.title-top {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .branch-item .branch-photo {
+    height: 268px;
+  }
+  .branch-item .branch-info {
+    padding: 20px 15px 0 15px;
+  }
+  .branch-item .branch-info .address {
+    margin-left: 20px;
+  }
+  .branch-item .branch-info .map {
+    height: 150px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -8747,6 +8853,32 @@ footer ._25-years-footer img {
   .text-box {
     margin-top: 100px;
     padding-left: 50px;
+  }
+  /*CONTACTO*/
+  .form-block {
+    background: transparent url(../images/contacto-image.png) no-repeat left bottom;
+    background-size: 500px;
+  }
+  .branch-item .branch-photo {
+    height: 432px;
+  }
+  .branch-item .branch-info {
+    padding: 0 15px 0 15px;
+    overflow: hidden;
+  }
+  .branch-item .branch-info .title-top {
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: #d0332a;
+    width: 110%;
+    margin-left: -5%;
+    padding: 10px 0;
+  }
+  .branch-item .branch-info .address {
+    margin-left: 50px;
+  }
+  .branch-item .branch-info .map {
+    height: 260px;
   }
   footer .social-column .title {
     text-align: center;

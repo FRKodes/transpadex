@@ -15,3 +15,4 @@ Route::get('/', 'PagesController@index');
 Route::get('servicios', 'PagesController@servicios');
 Route::get('quienes-somos', 'PagesController@quienes_somos');
 Route::get('flotillas', 'PagesController@flotillas');
+Route::get('clientes', 'PagesController@clientes');
