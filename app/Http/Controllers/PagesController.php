@@ -20,5 +20,10 @@ class PagesController extends Controller
 	{
 		return View('pages.quienes-somos');
 	}
+	
+	public function flotillas()
+	{
+		return View('pages.flotillas');
+	}
 
 }

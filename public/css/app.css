@@ -7781,6 +7781,14 @@ button.close {
   color: #d0332a;
 }
 
+.bg-red {
+  background-color: #d0332a;
+}
+
+.bg-gray {
+  background-color: #afafaf;
+}
+
 .m-b-40 {
   margin-bottom: 40px;
 }
@@ -7791,6 +7799,14 @@ button.close {
 
 .m-t-40 {
   margin-top: 40px;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+
+.p-b-20 {
+  padding-bottom: 20px;
 }
 
 body {
@@ -8083,10 +8099,19 @@ body {
   background-size: cover;
 }
 
+.section-top-banner.flotilla {
+  background: transparent url(../images/nuestra-flotilla-banner.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.section-top-banner.flotilla p {
+  text-align: center;
+}
+
 .section-top-banner p {
   font-size: 2em;
   color: white;
-  text-shadow: 2px 2px 8px #000;
+  text-shadow: 4px 4px 16px #000;
   line-height: .9em;
   margin-top: 60px;
   margin-left: 30px;
@@ -8238,6 +8263,37 @@ h1 {
 .item-advantage span {
   margin-right: 10px;
   font-size: 2em;
+}
+
+/*FLOTILLA*/
+h1.title-top {
+  font-size: 1.4em;
+  margin: 0;
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+
+.bg-dry-box {
+  background: transparent url(../images/unidades-caja-seca.jpg) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.bg-platform {
+  background: transparent url(../images/unidades-plataforma.jpg) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.truck-icons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.truck-icons p {
+  font-size: .9em;
+  line-height: 1.3em;
+  padding: 10px 0;
 }
 
 footer {
@@ -8517,25 +8573,6 @@ footer ._25-years-footer img {
     height: auto;
     display: inline-block;
   }
-  .mask {
-    width: 180px;
-    height: 160px;
-    background: #428bca;
-    display: inline-block;
-    -webkit-transform: skew(-15deg);
-    transform: skew(-15deg);
-    overflow: hidden;
-  }
-  .mask img {
-    width: 150%;
-    height: auto;
-    -webkit-transform: skew(15deg);
-    transform: skew(15deg);
-  }
-  .diagonal-big {
-    width: 210px;
-    margin-left: -100px;
-  }
   .valores-back {
     background: transparent url(../images/quienes-somos-valores-background.jpg) no-repeat center center;
     background-size: cover;
@@ -8565,6 +8602,14 @@ footer ._25-years-footer img {
   }
   .advantages .icon-check {
     margin-top: 6px;
+  }
+  /*FLOTILLA*/
+  h1.title-top {
+    font-size: 2em;
+    padding: 15px 0;
+  }
+  .section-top-banner.flotilla p {
+    margin-top: 170px;
   }
   footer .title {
     text-align: left;
@@ -8669,6 +8714,39 @@ footer ._25-years-footer img {
   }
   .item .title {
     margin-top: 40px;
+  }
+  /*FLOTILLA*/
+  .section-top-banner.flotilla p {
+    margin-top: 245px;
+  }
+  h1.title-top {
+    font-size: 2.6em;
+  }
+  .truck-icons {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .truck-icons .col-xs-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .truck-icons img {
+    width: 80%;
+  }
+  .bg-gray p {
+    width: 480px;
+  }
+  .text-box {
+    margin-top: 100px;
+    padding-left: 50px;
   }
   footer .social-column .title {
     text-align: center;
