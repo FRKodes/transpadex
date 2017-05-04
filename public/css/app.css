@@ -7796,6 +7796,7 @@ button.close {
 body {
   padding-top: 50px;
   font-family: 'Montserrat', sans-serif;
+  color: black;
 }
 
 .white {
@@ -8063,7 +8064,6 @@ body {
 
 .home-map {
   height: 180px;
-  background: gray;
 }
 
 /*SERVICIOS*/
@@ -8469,6 +8469,103 @@ footer ._25-years-footer img {
   .item-container p {
     font-size: 1em;
   }
+  /*QUIENES SOMOS*/
+  .quienes-somos {
+    height: 420px;
+  }
+  .quienes-somos p {
+    width: 600px;
+    margin-top: 150px;
+  }
+  .icon-flecha-der._768 {
+    font-size: 4em;
+  }
+  .col-sm-1.arrow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 200px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .item .title {
+    padding: 0;
+    background: none;
+    font-size: 3em;
+  }
+  .item .title.bg-triangle {
+    background-position: left 18px;
+    background-size: 34px;
+  }
+  .item.mision {
+    margin-bottom: 60px;
+  }
+  .item.mision {
+    margin-bottom: 60px;
+  }
+  .image-item {
+    height: auto;
+    text-align: right;
+    padding: 0;
+  }
+  .image-item img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mask {
+    width: 180px;
+    height: 160px;
+    background: #428bca;
+    display: inline-block;
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
+    overflow: hidden;
+  }
+  .mask img {
+    width: 150%;
+    height: auto;
+    -webkit-transform: skew(15deg);
+    transform: skew(15deg);
+  }
+  .diagonal-big {
+    width: 210px;
+    margin-left: -100px;
+  }
+  .valores-back {
+    background: transparent url(../images/quienes-somos-valores-background.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .item.valores .title {
+    padding-left: 40px;
+  }
+  .item.valores .value {
+    margin-bottom: 10px;
+  }
+  .item.advantages {
+    text-transform: none;
+    padding-top: 40px;
+    border-bottom: 1px solid #afafaf;
+    background: transparent url(../images/colaborador.png) no-repeat right bottom;
+    background-size: 250px;
+  }
+  .item.advantages .title {
+    padding-left: 40px;
+  }
+  .item-advantage {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .advantages .icon-check {
+    margin-top: 6px;
+  }
   footer .title {
     text-align: left;
   }
@@ -8557,6 +8654,22 @@ footer ._25-years-footer img {
   .item-container p {
     font-size: 1.1em;
   }
+  .section-top-banner.quienes-somos p {
+    margin-top: 210px;
+    margin-top-margin-left: 50px;
+  }
+  /*QUIENES SOMOS*/
+  .image-item {
+    text-align: center;
+  }
+  .image-item img {
+    width: 90%;
+    height: auto;
+    display: inline-block;
+  }
+  .item .title {
+    margin-top: 40px;
+  }
   footer .social-column .title {
     text-align: center;
   }
@@ -8586,5 +8699,8 @@ footer ._25-years-footer img {
     font-size: 6em;
     margin-top: 340px;
     margin-left: 0px;
+  }
+  .quienes-somos p {
+    width: 700px;
   }
 }
