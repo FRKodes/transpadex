@@ -23,19 +23,3 @@
 		<figure class="_25-years-footer"><img src="images/25-aniversario.svg" alt="25 aniversario"></figure>
 	</div>
 </div>
-
-<script>
-	function initMap() {
-			var uluru = {lat: 20.580445, lng: -103.317138};
-			var map = new google.maps.Map(document.getElementById('map'), {
-			  zoom: 15,
-			  scrollwheel: false,
-			  center: uluru
-			});
-			var marker = new google.maps.Marker({
-			  position: uluru,
-			  map: map
-			});
-		  }
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD77lo6QWgOpoJlBYY8lqWIBjSe9eoO1S0&callback=initMap"></script>

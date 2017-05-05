@@ -60,7 +60,7 @@
 						<li>Blanditiis accusantium inventore, sit numquam doloremque.</li>
 						<li>Iure id ducimus sed ut impedit ea voluptas tenetur veritatis.</li>
 					</ul>
-					<p class="advantages hidden-md">
+					<p class="advantages hidden-md hidden-lg">
 						<a class="white" href="#"><span class="icon-mas"></span> conoce nuestras ventajas</a>
 					</p>
 				</div>
@@ -121,3 +121,21 @@
 		</div>
 	</div>
 @endsection
+
+@section('scripts')
+	<script>	
+		function initMap() {
+			var gdl_map = {lat: 20.580445, lng: -103.317138};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 15,
+				scrollwheel: false,
+				center: gdl_map
+			});
+			var marker = new google.maps.Marker({
+				position: gdl_map,
+				map: map
+			});
+		}
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD77lo6QWgOpoJlBYY8lqWIBjSe9eoO1S0&callback=initMap"></script>
+@stop
