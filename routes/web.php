@@ -16,3 +16,4 @@ Route::get('servicios', 'PagesController@servicios');
 Route::get('quienes-somos', 'PagesController@quienes_somos');
 Route::get('flotillas', 'PagesController@flotillas');
 Route::get('clientes', 'PagesController@clientes');
+Route::get('contacto', 'PagesController@contacto');

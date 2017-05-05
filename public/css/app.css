@@ -8129,6 +8129,18 @@ body {
   text-align: center;
 }
 
+.section-top-banner.clientes {
+  background: transparent url(../images/banner-clientes.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.section-top-banner.clientes h1 {
+  text-align: center;
+  margin: 55px 0 0 0;
+  color: white;
+  text-shadow: 2px 2px 8px #000;
+}
+
 .section-top-banner p {
   font-size: 2em;
   color: white;
@@ -8317,6 +8329,12 @@ h1.title-top {
   padding: 10px 0;
 }
 
+/*CLIENTES*/
+.clients {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 /*CONTACTO*/
 #contactForm {
   padding-top: 30px;
@@ -8337,6 +8355,7 @@ textarea {
   border-radius: 0;
   padding: 6px 24px;
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .submit:active {
@@ -8700,14 +8719,14 @@ footer ._25-years-footer img {
   .section-top-banner.flotilla p {
     margin-top: 170px;
   }
-  footer .title {
-    text-align: left;
+  /*CLIENTES*/
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
-  footer ul.social {
-    text-align: left;
-  }
-  footer ul.social li {
-    margin: 20px 10px 0 0;
+  .section-top-banner.clientes h1 {
+    margin-top: 160px;
+    font-size: 3.4em;
   }
   /*CONTACTO*/
   h2.title-top {
@@ -8725,6 +8744,15 @@ footer ._25-years-footer img {
   }
   .branch-item .branch-info .map {
     height: 150px;
+  }
+  footer .title {
+    text-align: left;
+  }
+  footer ul.social {
+    text-align: left;
+  }
+  footer ul.social li {
+    margin: 20px 10px 0 0;
   }
 }
 
@@ -8853,6 +8881,11 @@ footer ._25-years-footer img {
   .text-box {
     margin-top: 100px;
     padding-left: 50px;
+  }
+  /*CLIENTES*/
+  .section-top-banner.clientes h1 {
+    margin-top: 200px;
+    font-size: 3.8em;
   }
   /*CONTACTO*/
   .form-block {
