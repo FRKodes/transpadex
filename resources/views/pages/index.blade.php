@@ -12,20 +12,38 @@
 						<span class="lines"><img src="images/lineas-titulares.svg" alt="lineas titulares"></span>
 					</p>
 				</div>
+				<div class="item">
+					<p class="asap">
+						<span class="one">Su aliado</span>
+						<span class="two">en transporte</span>
+						<span class="three">dedicado</span>
+						<span class="lines"><img src="images/lineas-titulares.svg" alt="lineas titulares"></span>
+					</p>
+				</div>
+				<div class="item">
+					<p class="asap">
+						<span class="one">Su aliado</span>
+						<span class="two">en transporte</span>
+						<span class="three">dedicado</span>
+						<span class="lines"><img src="images/lineas-titulares.svg" alt="lineas titulares"></span>
+					</p>
+				</div>
 			</div>
 
 			<div class="container">
-				<h2 class="home-title oswald">SERVICIOS QUE TE OFRECEMOS</h2>
+				<h2 class="home-title oswald italic bold">SERVICIOS QUE TE OFRECEMOS</h2>
 				<div class="home-services-container">
 					<div class="item">
 						<div class="service"><a href="#"><img src="/images/fletes-express.svg" alt="servicio fletes express"><span class="description">fletes express a <br>toda a república</span></a></div>
 						<div class="service"><a href="#"><img src="/images/almacenaje-y-distribucion.svg" alt="servicio almacenaje y distribucion"><span class="description">almacenaje <br>y distribución</span></a></div>
-						<div class="service"><a href="#"><img src="/images/camion-tonelada.svg" alt="servicio camion una tonelada"><span class="description">camión <br>1 tonelada</span></a></div>
-						<div class="service"><a href="#"><img src="/images/camion-35-toneladas.svg" alt="servicio camion 3 y 5 toneladas"><span class="description">camión <br>3 y 5 toneladas</span></a></div>
-						<div class="service hidden-xs hidden-sm"><a href="#"><img src="/images/camion-10-toneladas.svg" alt="servicio camion 10 toneladas"><span class="description">camion<br>10 toneladas</span></a></div>
 					</div>
 					<div class="item">
-						
+						<div class="service"><a href="#"><img src="/images/camion-tonelada.svg" alt="servicio camion una tonelada"><span class="description">camión <br>1 tonelada</span></a></div>
+						<div class="service"><a href="#"><img src="/images/camion-35-toneladas.svg" alt="servicio camion 3 y 5 toneladas"><span class="description">camión <br>3 y 5 toneladas</span></a></div>
+					</div>
+					<div class="item">
+						<div class="service"><a href="#"><img src="/images/camion-10-toneladas.svg" alt="servicio camion 10 toneladas"><span class="description">camion<br>10 toneladas</span></a></div>
+						<div class="service"><a href="#"><img src="/images/camion-4853-pies.svg" alt="servicio camion 48 y 53 pies"><span class="description">camion<br>48' y 53' pies</span></a></div>						
 					</div>
 				</div>
 			</div>
@@ -72,14 +90,22 @@
 			</div>
 			<div class="info-service">
 				<h2 class="asap">Fletes</h2>
-				<h3 class="mayus">Cobertura nacional</h3>
+				<div class="fletes-container">
+					<div class="item"><h3 class="mayus">Cobertura nacional</h3></div>
+					<div class="item"><h3 class="mayus">Cobertura mundial</h3></div>
+					<div class="item"><h3 class="mayus">Cobertura local</h3></div>
+				</div>
 			</div>
 		</div>
 		
 		<div class="row storage">
 			<div class="info-service">
 				<h2 class="asap">Almacenamiento y distribución</h2>
-				<h3 class="mayus">Contamos con más de 3,000 mts2 en la ciudad de Guadalajara y México.</h3>
+				<div class="storage-container">
+					<div class="item"><h3 class="mayus">Contamos con más de 3,000 mts2 en la ciudad de Guadalajara y México.</h3></div>
+					<div class="item"><h3 class="mayus">Contamos con más de 6,000 mts2 en la ciudad de Monterrey.</h3></div>
+					<div class="item"><h3 class="mayus">Contamos con más de 6,000 mts2 en la ciudad de Los Angeles.</h3></div>
+				</div>
 			</div>
 			<div class="photo-home-service"></div>
 		</div>
@@ -87,7 +113,7 @@
 		<div class="row branches">
 			<div class="container">
 				<div class="item col-sm-4">
-					<div class="title oswald">OFICINAS GENERALES</div>
+					<div class="title oswald italic">OFICINAS GENERALES</div>
 					<div class="address">
 						Carretera a Chapala No. 5010<br>
 						Col. Paseos del Lago.<br>
@@ -96,7 +122,7 @@
 					<img src="images/jalisco.svg" alt="jalisco" class="state">
 				</div>
 				<div class="item col-sm-4">
-					<div class="title oswald">SUCURSAL MONTERREY</div>
+					<div class="title oswald italic">SUCURSAL MONTERREY</div>
 					<div class="address">
 						Av. Ignacio Sepúlveda No. 326<br>
 						Col. La encarnación<br>
@@ -105,7 +131,7 @@
 					<img src="images/monterrey.svg" alt="monterrey" class="state">
 				</div>
 				<div class="item col-sm-4">
-					<div class="title oswald">SUCURSAL MÉXICO</div>
+					<div class="title oswald italic">SUCURSAL MÉXICO</div>
 					<div class="address">
 						Blvd. A López Mateos No. 646<br>
 						Col. Insurgentes<br>
@@ -138,4 +164,51 @@
 		}
 	</script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD77lo6QWgOpoJlBYY8lqWIBjSe9eoO1S0&callback=initMap"></script>
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.main-banners-container').slick({
+				'autoplay': true,
+				'arrows': false,
+				'dots': true
+			});
+			$('.fletes-container').slick({
+				'autoplay': true,
+				'arrows': false,
+				'dots': true
+			});
+			$('.storage-container').slick({
+				'autoplay': true,
+				'arrows': false,
+				'dots': true
+			});
+			$('.home-services-container').slick({
+				'autoplay': false,
+				'prevArrow': '<button type="button" class="icon-flecha-izq"></button>',
+				'nextArrow': '<button type="button" class="icon-flecha-der"></button>',
+				slidesToShow: 3,
+				  slidesToScroll: 1,
+				  responsive: [
+				    {
+				      breakpoint: 1200,
+				      settings: {
+				        slidesToShow: 3,
+				        slidesToScroll: 1,
+				        infinite: true
+				      }
+				    },
+				    {
+				      breakpoint: 992,
+				      settings: {
+				        slidesToShow: 2,
+				        slidesToScroll: 1,
+				        infinite: true
+				      }
+				    }
+				  ]
+			});
+		});
+	</script>
 @stop

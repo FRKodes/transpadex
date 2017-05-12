@@ -7761,6 +7761,10 @@ button.close {
   font-style: italic;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .mayus {
   text-transform: uppercase;
 }
@@ -7906,13 +7910,17 @@ body {
 
 .main-banners-container {
   height: 180px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .main-banners-container .item {
   text-align: center;
   background: transparent url(../images/banner-home-01.jpg) no-repeat center center;
   background-size: cover;
-  height: 100%;
+  height: 180px;
+  display: inline-block;
+  width: 100%;
 }
 
 .main-banners-container p {
@@ -7959,14 +7967,73 @@ body {
   display: block;
 }
 
+.slick-dots {
+  bottom: 50px;
+  position: relative;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.slick-dots li {
+  display: inline-block;
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 20px;
+  position: relative;
+}
+
+.slick-dots li::before {
+  content: '. . . . ';
+  color: white;
+  position: absolute;
+  left: -32px;
+  bottom: -2px;
+}
+
+.slick-dots li:first-of-type::before {
+  content: '';
+}
+
+.slick-dots li button {
+  color: transparent;
+  background: transparent;
+  border: none;
+}
+
+.slick-dots li.slick-active::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  color: white;
+  position: absolute;
+  border-radius: 50%;
+  left: -4px;
+  bottom: -4px;
+}
+
 .home-title {
   text-align: center;
   font-size: 1.6em;
 }
 
-.home-services-container .item .service {
+.home-services-container {
+  height: auto;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.home-services-container .item {
   display: inline-block;
-  width: 49%;
+}
+
+.home-services-container .item .service {
+  display: block;
   text-align: center;
   margin-bottom: 15px;
   margin-top: 15px;
@@ -7983,6 +8050,22 @@ body {
   text-transform: uppercase;
   line-height: 1.3em;
   font-size: .8em;
+}
+
+.home-services-container .slick-arrow {
+  color: #afafaf;
+  position: absolute;
+  bottom: 0;
+  font-size: 2.4em;
+  z-index: 100;
+}
+
+.home-services-container .slick-arrow.icon-flecha-izq {
+  left: 80px;
+}
+
+.home-services-container .slick-arrow.icon-flecha-der {
+  right: 80px;
 }
 
 .row.who-we-are {
@@ -8058,6 +8141,86 @@ body {
   text-transform: uppercase;
 }
 
+.fletes-container {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+.fletes-container .item {
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.fletes-container .slick-dots {
+  bottom: 0;
+  position: relative;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.fletes-container .slick-dots li {
+  display: inline-block;
+  background-color: white;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0 16px;
+  position: relative;
+}
+
+.fletes-container .slick-dots li::before {
+  left: -27px;
+  bottom: -3px;
+}
+
+.fletes-container .slick-dots li.slick-active::after {
+  width: 16px;
+  height: 16px;
+}
+
+.storage .storage-container {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+.storage .storage-container .item {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.storage .storage-container .slick-dots {
+  bottom: 0;
+  position: relative;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.storage .storage-container .slick-dots li {
+  background-color: #d0332a;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0 16px;
+  position: relative;
+}
+
+.storage .storage-container .slick-dots li::before {
+  left: -27px;
+  bottom: -3px;
+  color: #d0332a;
+}
+
+.storage .storage-container .slick-dots li.slick-active::after {
+  width: 16px;
+  height: 16px;
+  border-color: #d0332a;
+}
+
 .storage .info-service {
   background: #dcdcdc;
   color: #443c3a;
@@ -8081,6 +8244,12 @@ body {
 
 .branches .item {
   margin-bottom: 40px;
+}
+
+.branches .item .title {
+  color: white;
+  background: none;
+  padding-left: 0;
 }
 
 .branches img {
@@ -8487,6 +8656,9 @@ footer ._25-years-footer img {
   .main-banners-container {
     height: 460px;
   }
+  .main-banners-container .item {
+    height: 460px;
+  }
   .main-banners-container p {
     padding-top: 120px;
     font-size: 1.6em;
@@ -8497,9 +8669,13 @@ footer ._25-years-footer img {
     right: -90px;
     width: 140px;
   }
+  .home-title {
+    font-size: 2em;
+  }
   .home-services-container .item .service {
-    width: 24%;
     margin-bottom: 30px;
+    display: inline-block;
+    width: 49%;
   }
   .home-services-container .item .service img {
     width: 80%;
@@ -8508,6 +8684,16 @@ footer ._25-years-footer img {
     margin: 5px auto 0 auto;
     line-height: 1.3em;
     font-size: 1em;
+  }
+  .home-services-container .slick-arrow {
+    bottom: 20px;
+    font-size: 3em;
+  }
+  .home-services-container .slick-arrow.icon-flecha-izq {
+    left: 220px;
+  }
+  .home-services-container .slick-arrow.icon-flecha-der {
+    right: 220px;
   }
   .row.who-we-are {
     background: #443c3a;
@@ -8569,7 +8755,7 @@ footer ._25-years-footer img {
     font-size: 1.6em;
   }
   .info-service {
-    padding: 80px 30px;
+    padding: 80px 30px 20px 30px;
   }
   .info-service h2 {
     font-size: 2em;
@@ -8766,6 +8952,9 @@ footer ._25-years-footer img {
   .main-banners-container {
     height: 540px;
   }
+  .main-banners-container .item {
+    height: 540px;
+  }
   .main-banners-container p {
     padding-top: 185px;
     font-size: 2em;
@@ -8776,8 +8965,13 @@ footer ._25-years-footer img {
     right: -110px;
     width: 135px;
   }
-  .home-services-container .item .service {
-    width: 19%;
+  .home-title {
+    font-size: 2.6em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .home-services-container {
+    padding-bottom: 0;
   }
   .home-services-container .item .service .description {
     margin: 5px auto 0 auto;
@@ -8802,6 +8996,9 @@ footer ._25-years-footer img {
   }
   .certs img.cert.iso {
     height: 120px;
+  }
+  .fletes-container .item {
+    padding-bottom: 90px;
   }
   ul.features {
     float: right;

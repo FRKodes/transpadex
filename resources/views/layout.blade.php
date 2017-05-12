@@ -11,7 +11,7 @@
 		</section>
 		
 		<footer>@include('partials.footer')</footer>
-		@yield('scripts')
 		<script src="/js/app.js"></script>
+		@yield('scripts')
 	</body>
 </html>

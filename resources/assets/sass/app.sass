@@ -8,6 +8,8 @@
 
 .italic
 	font-style: italic
+.bold
+	font-weight: bold
 .mayus
 	text-transform: uppercase
 .oswald
@@ -86,11 +88,15 @@ body
 	justify-content: space-between
 .main-banners-container
 	height: 180px
+	width: 100%
+	overflow: hidden
 	.item
 		text-align: center
 		background: transparent url(../images/banner-home-01.jpg) no-repeat center center
 		background-size: cover
-		height: 100%
+		height: 180px
+		display: inline-block
+		width: 100%
 	p
 		color: white
 		width: 185px
@@ -121,14 +127,56 @@ body
 				width: 100%
 				height: auto
 				display: block
+.slick-dots
+	bottom: 50px
+	position: relative
+	margin-bottom: 0
+	padding: 0
+	text-align: center
+	li
+		display: inline-block
+		background-color: white
+		width: 12px
+		height: 12px
+		border-radius: 50%
+		margin: 0 20px
+		position: relative
+		&::before
+			content: '. . . . '
+			color: white
+			position: absolute
+			left: -32px
+			bottom: -2px
+		&:first-of-type::before
+			content: ''
+		button
+			color: transparent
+			background: transparent
+			border: none
+		&.slick-active
+			&::after
+				content: ''
+				width: 20px
+				height: 20px
+				border: 1px solid white
+				color: white
+				position: absolute
+				border-radius: 50%
+				left: -4px
+				bottom: -4px
 .home-title
 	text-align: center
 	font-size: 1.6em
 .home-services-container
+	height: auto
+	display: block
+	overflow: hidden
+	position: relative
+	padding-bottom: 50px
 	.item
+		display: inline-block
 		.service
-			display: inline-block
-			width: 49%
+			display: block
 			text-align: center
 			margin-bottom: 15px
 			margin-top: 15px
@@ -141,6 +189,16 @@ body
 				text-transform: uppercase
 				line-height: 1.3em
 				font-size: .8em
+	.slick-arrow
+		color: $gris
+		position: absolute
+		bottom: 0
+		font-size: 2.4em
+		z-index: 100
+		&.icon-flecha-izq
+			left: 80px
+		&.icon-flecha-der
+			right: 80px
 .row.who-we-are
 	background: transparent url(../images/quienes-somos-background.jpg) no-repeat center center
 	background-size: cover
@@ -189,7 +247,65 @@ body
 	h3
 		font-size: 1.1em
 		text-transform: uppercase
+.fletes-container
+	overflow: hidden
+	display: block
+	width: 100%
+	.item
+		display: inline-block
+		padding-bottom: 30px
+	.slick-dots
+		bottom: 0
+		position: relative
+		margin-bottom: 0
+		padding: 0
+		text-align: center
+		li
+			display: inline-block
+			background-color: white
+			width: 8px
+			height: 8px
+			border-radius: 50%
+			margin: 0 16px
+			position: relative
+			&::before
+				left: -27px
+				bottom: -3px
+			&.slick-active
+				&::after
+					width: 16px
+					height: 16px
 .storage
+	.storage-container
+		overflow: hidden
+		display: block
+		width: 100%
+		.item
+			display: inline-block
+			width: 100%
+			padding-bottom: 30px
+		.slick-dots
+			bottom: 0
+			position: relative
+			margin-bottom: 0
+			padding: 0
+			text-align: center
+			li
+				background-color: $red
+				width: 8px
+				height: 8px
+				border-radius: 50%
+				margin: 0 16px
+				position: relative
+				&::before
+					left: -27px
+					bottom: -3px
+					color: $red
+				&.slick-active
+					&::after
+						width: 16px
+						height: 16px
+						border-color: $red
 	.info-service
 		background: $back-storage
 		color: $back-fletes
@@ -205,6 +321,10 @@ body
 	padding-top: 30px
 	.item
 		margin-bottom: 40px
+		.title
+			color: white
+			background: none
+			padding-left: 0
 	img
 		width: 60px
 		position: absolute
@@ -462,6 +582,8 @@ footer
 		float: right
 	.main-banners-container
 		height: 460px
+		.item
+			height: 460px
 		p
 			padding-top: 120px
 			font-size:  1.6em
@@ -470,17 +592,27 @@ footer
 				bottom: -52px
 				right: -90px
 				width: 140px
+	.home-title
+		font-size: 2em
 	.home-services-container
 		.item
 			.service
-				width: 24%
 				margin-bottom: 30px
+				display: inline-block
+				width: 49%;
 				img
 					width: 80%
 				.description
 					margin: 5px auto 0 auto
 					line-height: 1.3em
 					font-size: 1em
+		.slick-arrow
+			bottom: 20px
+			font-size: 3em
+			&.icon-flecha-izq
+				left: 220px
+			&.icon-flecha-der
+				right: 220px
 	.row.who-we-are
 		background: $back-fletes
 		padding-top: 80px
@@ -529,7 +661,7 @@ footer
 		span
 			font-size: 1.6em
 	.info-service
-		padding: 80px 30px
+		padding: 80px 30px 20px 30px
 		h2
 			font-size: 2em
 		h3
@@ -678,6 +810,8 @@ footer
 				width: 150px
 	.main-banners-container
 		height: 540px
+		.item
+			height: 540px
 		p
 			padding-top: 185px
 			font-size:  2em
@@ -686,10 +820,14 @@ footer
 				bottom: -30px
 				right: -110px
 				width: 135px
+	.home-title
+		font-size: 2.6em
+		margin-top: 30px
+		margin-bottom: 20px
 	.home-services-container
+		padding-bottom: 0
 		.item
 			.service
-				width: 19%
 				.description
 					margin: 5px auto 0 auto
 					line-height: 1.3em
@@ -708,6 +846,9 @@ footer
 			width: auto
 			&.iso
 				height: 120px
+	.fletes-container
+		.item
+			padding-bottom: 90px
 	ul.features
 		float: right
 		width: 60%
