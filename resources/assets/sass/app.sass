@@ -97,17 +97,28 @@ body
 		height: 180px
 		display: inline-block
 		width: 100%
+		&.dos
+			background: transparent url(../images/banner-home-02.jpg) no-repeat center center
+			background-size: cover
+			span.two
+				font-size: 1.2em
+		&.tres
+			background: transparent url(../images/banner-home-03.jpg) no-repeat center center
+			background-size: cover
+		&.cuatro
+			background: transparent url(../images/banner-home-04.jpg) no-repeat center center
+			background-size: cover
 	p
 		color: white
 		width: 185px
-		padding-top: 50px
+		padding-top: 40px
 		margin-left: 5%
 		text-shadow: 2px 2px 8px #000
 		position: relative
 		z-index: 1
 		span
 			display: block
-			line-height: 1em
+			line-height: .2em
 		span.one
 			font-size: 2em
 		span.two
@@ -200,7 +211,7 @@ body
 		&.icon-flecha-der
 			right: 80px
 .row.who-we-are
-	background: transparent url(../images/quienes-somos-background.jpg) no-repeat center center
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/quienes-somos-background.jpg) no-repeat center center
 	background-size: cover
 	padding-top: 40px
 	padding-bottom: 20px
@@ -209,6 +220,8 @@ body
 .text-title
 	text-align: center
 .more
+	a
+		color: white
 	.icon-mas
 		background red
 ._25-years
@@ -585,13 +598,15 @@ footer
 		.item
 			height: 460px
 		p
-			padding-top: 120px
+			padding-top: 250px
 			font-size:  1.6em
-			width: 220px
+			width: 300px
 			.lines
 				bottom: -52px
 				right: -90px
 				width: 140px
+		.slick-dots
+			bottom: 70px
 	.home-title
 		font-size: 2em
 	.home-services-container
@@ -637,7 +652,7 @@ footer
 			position: relative
 			z-index: 2
 		.back-image
-			width: 64%
+			width: 58%
 			position: absolute
 			right: 0
 			top: -30px

@@ -19,8 +19,15 @@
 		<div class="row">
 			<div class="col-xs-5 col-sm-6 bg-dry-box"></div>
 			<div class="col-xs-7 col-sm-6 p-t-20 p-b-20 text-box">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<p>Alias, obcaecati, quam. Rem ea dolorum totam fugit alias, libero, voluptas illum optio vero accusamus ratione aspernatur similique laborum natus animi officia.</p>
+				<p>Con riel logístico para sujetar y asegurar la carga. Ideales para:</p>
+				<ul>
+					<li>Toda clase de manufacturas</li>
+					<li>Pallets con materia prima</li>
+					<li>Material delicado</li>
+					<li>Muebles diversos</li>
+					<li>Electrodomésticos</li>
+					<li>Mercancía en General</li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -56,8 +63,15 @@
 		<div class="row">
 			<div class="col-xs-5 col-sm-6 bg-platform"></div>
 			<div class="col-xs-7 col-sm-6 p-t-20 p-b-20 text-box">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<p>Alias, obcaecati, quam. Rem ea dolorum totam fugit alias, libero, voluptas illum optio vero accusamus ratione aspernatur similique laborum natus animi officia.</p>
+				<p>Con redilas desmontables y ganchos para sujetar la mercancía con eslingas. Además de una lona para cubrir su mercancía. Ideal para:</p>
+				<ul>
+					<li>Mercancía con embalaje</li>
+					<li>Material voluminoso</li>
+					<li>Rollo de acero</li>
+					<li>Montacargas</li>
+					<li>Maquinaria</li>
+					<li>Tubería</li>
+				</ul>
 			</div>
 		</div>
 	</div>

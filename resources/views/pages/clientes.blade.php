@@ -9,7 +9,7 @@
 
 	<div class="container">
 		<p class="p-t-20">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, dolorem? Quibusdam reiciendis natus voluptatem quos dignissimos hic tempora, accusamus, esse cupiditate consectetur ut nemo adipisci ea autem. Asperiores, odio, ad.
+			Para nosotros nuestros clientes son lo más importante, por ello nuestro trabajo con ellos es nuestro mejor respaldo.
 		</p>
 	</div>
 

@@ -10,18 +10,18 @@
 			<a class="navbar-brand" href="{{ url('/')}}"><img src="images/logo-transpadex.svg" alt="logo transpadex"></a>
 			<div class="call-us hidden-sm hidden-md hidden-lg">
 				<span class="icon-telefono red"></span>
-				<a href="#" class="red call-us-header">Llámanos</a>
+				<a href="tel:+52018003476036" class="red call-us-header">Llámanos</a>
 			</div>
 		</div>
 	
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="{{ url('/') }}">Inicio</a></li>
-				<li><a href="{{ url('servicios') }}">Servicios</a></li>
-				<li><a href="{{ url('quienes-somos') }}">Quienes Somos</a></li>
-				<li><a href="{{ url('flotillas') }}">Flotillas</a></li>
-				<li><a href="{{ url('clientes') }}">Clientes</a></li>
-				<li><a href="{{ url('contacto') }}">Contacto</a></li>
+				<li class="@if (Request::is('/')) active @endif"><a href="{{ url('/') }}">Inicio</a></li>
+				<li class="@if (Request::is('servicios')) active @endif"><a href="{{ url('servicios') }}">Servicios</a></li>
+				<li class="@if (Request::is('quienes-somos')) active @endif"><a href="{{ url('quienes-somos') }}">Quienes Somos</a></li>
+				<li class="@if (Request::is('flotillas')) active @endif"><a href="{{ url('flotillas') }}">Flotillas</a></li>
+				<li class="@if (Request::is('clientes')) active @endif"><a href="{{ url('clientes') }}">Clientes</a></li>
+				<li class="@if (Request::is('contacto')) active @endif"><a href="{{ url('contacto') }}">Contacto</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>

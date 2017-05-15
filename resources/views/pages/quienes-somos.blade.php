@@ -8,16 +8,14 @@
 	</div>
 
 	<div class="container">
-		<p class="m-t-20">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae, ipsa possimus, quisquam rem maxime est eum non temporibus et dolor quidem corporis fugit error dolorem id pariatur distinctio, facere? <br>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero voluptatum blanditiis impedit quaerat illum vel quam sapiente. Dignissimos suscipit dicta harum, recusandae praesentium laudantium ratione id alias, consequatur in omnis.
-		</p>
+		<p class="m-t-20">Transpadex nació en el año de 1991, fruto de una tradición familiar de varias generaciones. </p>
+		<p>A lo largo de 20 años se ha preocupado por innovar y diversificar sus servicios acorde a las necesidades de sus clientes, para brindar satisfacción en cada envío, con un servicio exprés y de alta calidad a cualquier parte de la república.</p>
 	</div>
 
 	<div class="container">
 		<div class="col-sm-4 history-item first-one">
 			<div class="title">1991</div>
-			<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto sit facere neque.</div>
+			<div class="description">1991 Nace bajo el nombre de Transportes Padilla</div>
 			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
 		</div>
 		<div class="col-sm-1 arrow hidden-xs">
@@ -26,7 +24,7 @@
 
 		<div class="col-sm-4 history-item second-one">
 			<div class="title">2014</div>
-			<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto sit facere neque.</div>
+			<div class="description">2014 Nos renovamos totalmente, cambiando el nombre a Transpadex.</div>
 			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
 		</div>
 		<div class="col-sm-1 arrow hidden-xs">
@@ -41,7 +39,7 @@
 			</div>
 			<div class="col-sm-9 col-md-8">
 				<div class="title oswald italic">Misión</div>
-				<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quia tenetur vel possimus distinctio maxime id non neque sapiente vitae unde deleniti sint ea architecto fugit.</div>
+				<div class="description">Brindar soluciones integrales a los requerimientos de nuestros clientes; que tengan seguridad y confianza en sus traslados gracias a las óptimas condiciones en equipo de transporte y capacidad del personal.</div>
 			</div>
 		</div>
 
@@ -51,7 +49,7 @@
 			</div>
 			<div class="col-sm-9 col-md-8">
 				<div class="title oswald italic">Visión</div>
-				<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quia tenetur vel possimus distinctio maxime id non neque sapiente vitae unde deleniti sint ea architecto fugit.</div>
+				<div class="description">Consolidarse como una empresa líder en transporte exprés a toda la república, creciendo a un ritmo constante.</div>
 			</div>
 		</div>
 	</div>
@@ -62,56 +60,71 @@
 				<div class="item valores">
 					<div class="title oswald italic bg-triangle col-xs-12">Valores</div>
 					<div class="items col-sm-5 col-md-4">
-						<div class="value">- Lorem ipsum dolor sit amet, consectetur.</div>
-						<div class="value">- Lorem ipsum dolor sit amet, consectetur.</div>
-						<div class="value">- Lorem ipsum dolor sit amet, consectetur.</div>
-						<div class="value">- Lorem ipsum dolor sit amet, consectetur.</div>
-						<div class="value">- Lorem ipsum dolor sit amet, consectetur.</div>
+						<div class="value">- Puntualidad</div>
+						<div class="value">- Responsabilidad</div>
+						<div class="value">- Honestidad</div>
+						<div class="value">- Confianza</div>
+						<div class="value">- Respeto</div>
 					</div>
 					<div class="description col-sm-7 col-md-8">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet perferendis alias nesciunt illo sunt quae, deserunt laboriosam eius molestiae molestias! Quo maiores temporibus nobis omnis eligendi possimus eos quod voluptatem!
+						Con estos valores como base, a lo largo de  20 años, hemos encontrado un crecimiento constante, excelente personal y la satisfacción de nuestros clientes.
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container" id="ventajas">
 		<div class="item advantages">
 			<div class="title oswald italic bg-triangle">Ventajas Competitivas</div>
 			<div class="item-advantage m-t-20">
 				<span class="icon-check"></span>
-				<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+				<div class="description">Rastreo satelital en todas nuestras unidades.</div>
 			</div>
 
 			<div class="item-advantage">
 				<span class="icon-check"></span>
-				<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+				<div class="description">Laboramos los 365 días del año.</div>
 			</div>
 
 			<div class="item-advantage">
 				<span class="icon-check"></span>
-				<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+				<div class="description">Atención personalizada con nuestros clientes.</div>
 			</div>
 
 			<div class="item-advantage">
 				<span class="icon-check"></span>
-				<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+				<div class="description">Personal con amplia experiencia.</div>
 			</div>
 
 			<div class="item-advantage">
 				<span class="icon-check"></span>
-				<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+				<div class="description">Seriedad y puntualidad en cada envío.</div>
 			</div>
 
 			<div class="item-advantage">
 				<span class="icon-check"></span>
-				<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+				<div class="description">Unidades último modelo y en óptimas condiciones.</div>
 			</div>
 
 			<div class="item-advantage">
 				<span class="icon-check"></span>
-				<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+				<div class="description">Diversidad de modelos y capacidades.</div>
+			</div>
+
+			<div class="item-advantage">
+				<span class="icon-check"></span>
+				<div class="description">Mantenimiento especializado a las unidades por parte de nuestra empresa.</div>
+			</div>
+
+			<div class="item-advantage">
+				<span class="icon-check"></span>
+				<div class="description">Flujo constante de información entre operador-oficina-cliente.</div>
+			</div>
+
+			<div class="item-advantage">
+				<span class="icon-check"></span>
+				<div class="description">Precios justos y competitivos.</div>
 			</div>
 		</div>
 	</div>

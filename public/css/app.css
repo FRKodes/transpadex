@@ -7923,10 +7923,29 @@ body {
   width: 100%;
 }
 
+.main-banners-container .item.dos {
+  background: transparent url(../images/banner-home-02.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.main-banners-container .item.dos span.two {
+  font-size: 1.2em;
+}
+
+.main-banners-container .item.tres {
+  background: transparent url(../images/banner-home-03.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.main-banners-container .item.cuatro {
+  background: transparent url(../images/banner-home-04.jpg) no-repeat center center;
+  background-size: cover;
+}
+
 .main-banners-container p {
   color: white;
   width: 185px;
-  padding-top: 50px;
+  padding-top: 40px;
   margin-left: 5%;
   text-shadow: 2px 2px 8px #000;
   position: relative;
@@ -7935,7 +7954,7 @@ body {
 
 .main-banners-container p span {
   display: block;
-  line-height: 1em;
+  line-height: .2em;
 }
 
 .main-banners-container p span.one {
@@ -8069,7 +8088,7 @@ body {
 }
 
 .row.who-we-are {
-  background: transparent url(../images/quienes-somos-background.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/quienes-somos-background.jpg) no-repeat center center;
   background-size: cover;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -8079,6 +8098,10 @@ body {
 
 .text-title {
   text-align: center;
+}
+
+.more a {
+  color: white;
 }
 
 ._25-years {
@@ -8660,14 +8683,17 @@ footer ._25-years-footer img {
     height: 460px;
   }
   .main-banners-container p {
-    padding-top: 120px;
+    padding-top: 250px;
     font-size: 1.6em;
-    width: 220px;
+    width: 300px;
   }
   .main-banners-container p .lines {
     bottom: -52px;
     right: -90px;
     width: 140px;
+  }
+  .main-banners-container .slick-dots {
+    bottom: 70px;
   }
   .home-title {
     font-size: 2em;
@@ -8724,7 +8750,7 @@ footer ._25-years-footer img {
     z-index: 2;
   }
   .row.who-we-are .back-image {
-    width: 64%;
+    width: 58%;
     position: absolute;
     right: 0;
     top: -30px;
