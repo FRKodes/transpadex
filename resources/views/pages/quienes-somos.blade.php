@@ -77,52 +77,52 @@
 	<div class="container" id="ventajas">
 		<div class="item advantages">
 			<div class="title oswald italic bg-triangle">Ventajas Competitivas</div>
-			<div class="item-advantage m-t-20">
+			<div class="item-advantage col-md-6">
 				<span class="icon-check"></span>
 				<div class="description">Rastreo satelital en todas nuestras unidades.</div>
 			</div>
 
-			<div class="item-advantage">
+			<div class="item-advantage col-md-6">
 				<span class="icon-check"></span>
 				<div class="description">Laboramos los 365 días del año.</div>
 			</div>
 
-			<div class="item-advantage">
+			<div class="item-advantage col-md-6">
 				<span class="icon-check"></span>
 				<div class="description">Atención personalizada con nuestros clientes.</div>
 			</div>
 
-			<div class="item-advantage">
+			<div class="item-advantage col-md-6">
 				<span class="icon-check"></span>
 				<div class="description">Personal con amplia experiencia.</div>
 			</div>
 
-			<div class="item-advantage">
+			<div class="item-advantage col-md-6">
 				<span class="icon-check"></span>
 				<div class="description">Seriedad y puntualidad en cada envío.</div>
 			</div>
 
-			<div class="item-advantage">
+			<div class="item-advantage col-md-6">
 				<span class="icon-check"></span>
 				<div class="description">Unidades último modelo y en óptimas condiciones.</div>
 			</div>
 
-			<div class="item-advantage">
+			<div class="item-advantage col-md-6">
 				<span class="icon-check"></span>
 				<div class="description">Diversidad de modelos y capacidades.</div>
 			</div>
 
-			<div class="item-advantage">
+			<div class="item-advantage col-md-6">
 				<span class="icon-check"></span>
 				<div class="description">Mantenimiento especializado a las unidades por parte de nuestra empresa.</div>
 			</div>
 
-			<div class="item-advantage">
+			<div class="item-advantage col-md-6">
 				<span class="icon-check"></span>
 				<div class="description">Flujo constante de información entre operador-oficina-cliente.</div>
 			</div>
 
-			<div class="item-advantage">
+			<div class="item-advantage col-md-6">
 				<span class="icon-check"></span>
 				<div class="description">Precios justos y competitivos.</div>
 			</div>

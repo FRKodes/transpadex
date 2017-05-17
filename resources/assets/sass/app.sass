@@ -20,6 +20,10 @@
 	font-family: 'Montserrat', sans-serif
 .red
 	color: $red
+.black
+	color: black
+.white
+	color: white
 .bg-red
 	background-color: $red
 .bg-gray
@@ -83,6 +87,13 @@ body
 			width: 110px
 			height: auto
 			display: inline-block
+.nav > li > a
+	padding: 10px
+	&.login-btn
+		background-color: $red
+		color: white
+		border-radius: 4px
+		margin-left: 10px
 .container > .navbar-header
 	display: flex
 	justify-content: space-between
@@ -661,6 +672,9 @@ footer
 				width: 100%
 				height: auto
 				display: block
+	.more
+		.icon-mas
+			color: black
 	._25-years
 		background: $back-red url(../images/25-years.png) no-repeat center right
 		background-size: 80%
@@ -675,6 +689,13 @@ footer
 		font-size: 2.4em
 		span
 			font-size: 1.6em
+	.text-25-years
+		padding-top: 60px
+		font-size: 1.5em
+		line-height: 2em
+		width: 60%
+		float: right
+		text-shadow: 2px 2px 8px #000
 	.info-service
 		padding: 80px 30px 20px 30px
 		h2
@@ -771,10 +792,13 @@ footer
 			margin-bottom: 10px
 	.item.advantages
 		text-transform: none
-		padding-top: 40px
+		padding-top: 0
+		overflow: hidden
 		border-bottom: 1px solid $gris
-		background: transparent url(../images/colaborador.png) no-repeat right bottom
+		// background: transparent url(../images/colaborador.png) no-repeat right bottom
 		background-size: 250px
+		text-shadow: 2px 2px 8px #fff
+		padding-bottom: 50px
 		.title
 			padding-left: 40px
 	.item-advantage
@@ -820,9 +844,17 @@ footer
 @media screen and (min-width: 992px)
 	.navbar-default
 		.navbar-brand
-			padding-top: 15px
+			padding: 0
+			height: auto
+			padding-top: 10px
 			img
-				width: 150px
+				width: 210px
+		.navbar-collapse
+			padding-bottom: 1px
+	.nav > li > a
+		padding: 10px 15px
+	.navbar-nav
+		margin-top: 10px
 	.main-banners-container
 		height: 540px
 		.item
@@ -830,7 +862,7 @@ footer
 		p
 			padding-top: 185px
 			font-size:  2em
-			width: 280px
+			width: 340px
 			.lines
 				bottom: -30px
 				right: -110px
@@ -892,6 +924,8 @@ footer
 			margin-top: 210px
 		    margin-left: 50px
 	/*QUIENES SOMOS*/
+	.history-item
+		padding-bottom: 50px
 	.image-item
 		text-align: center
 		img
@@ -959,10 +993,19 @@ footer
 @media screen and (min-width: 1200px)
 	.row.who-we-are
 		.back-image
-			right: 30px
-			width: 570px
+			right: 130px
+			width: 470px
 		p
 			width: 420px
+	.item.mision .description
+		width: 600px
+		font-size: 1.3em
+	.item.vision .description
+		width: 600px
+		font-size: 1.3em
+	.item.valores .description
+		width: 600px
+		font-size: 1.3em
 @media screen and (min-width: 1800px)
 	.section-top-banner
 		height: 670px

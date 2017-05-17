@@ -30,9 +30,9 @@
 			<div class="half hidden-xs"></div>
 			<div class="container">
 				<h2 class="text-title asap">¿Quiénes somos?</h2>
-				<p>Transpadex es una empresa dedicada al transporte de carga a toda la república, teniendo como base Guadalajara, contando con sucursales en México y Monterrey.</p>
+				<p>Transpadex es una empresa dedicada al transporte de carga a toda la república, teniendo como base Guadalajara, contando con sucursales en México y Querétaro.</p>
 				<p>Nuestro principal objetivo es la satisfacción de nuestros clientes, a través de la excelencia de nuestro capital humano, flotilla en óptimas condiciones y tecnología.</p>
-				<p class="more"><a href="{{ url('quienes-somos') }}"><span class="icon-mas"></span></a></p>
+				<p class="more"><a href="{{ url('quienes-somos') }}"><span class="icon-mas"></span> <span class="black hidden-xs">Conoce más de nosotros</span></a></p>
 				<div class="back-image hidden-xs"><img src="images/quienes-somos-background.jpg" alt="quienes somos background"></div>
 			</div>	
 		</div>
@@ -46,7 +46,10 @@
 						<img class="cert hidden-xs" src="images/neec-logo.svg" alt="neec">
 						<img class="cert iso hidden-xs" src="images/ISO-98.svg" alt="ISO 98">
 					</p>
-					<ul class="features hidden-xs hidden-sm">
+					<p class="text-25-years hidden-xs hidden-sm">
+						Contamos con más de 25 años de experiencia en transporte, teniendo la misión de superar las expectativas de nuestros clientes en sus necesidades de transporte.
+					</p>
+					<ul class="features hidden-xs hidden-sm hidden">
 						<li>Libero, nisi excepturi ut dolorem consequatur vitae molestias .</li>
 						<li>Neque iste, deserunt consequuntur perspiciatis ab, atque odit .</li>
 						<li>Molestiae assumenda voluptatibus quas consequatur ratione, doloremque.</li>
@@ -103,16 +106,16 @@
 						Col. Paseos del Lago.<br>
 						Tlaquepaque, Jalisco C.P. 45619
 					</div>
-					<img src="images/jalisco.svg" alt="jalisco" class="state">
+					<a href="{{ url('contacto') }}#sucursales"><img src="images/jalisco.svg" alt="jalisco" class="state"></a>
 				</div>
 				<div class="item col-sm-4">
-					<div class="title oswald italic">SUCURSAL MONTERREY</div>
+					<div class="title oswald italic">SUCURSAL QUERÉTARO</div>
 					<div class="address">
-						Av. Ignacio Sepúlveda No. 326<br>
-						Col. La encarnación<br>
-						apodaca N.L, C.P. 66633
+						Lorem ipsum dolor sit amet, consectetur adipisicing<br>
+						Elit. Numquam animi <br>
+						reprehenderit autem 
 					</div>
-					<img src="images/monterrey.svg" alt="monterrey" class="state">
+					<a href="{{ url('contacto') }}#sucursales"><img src="images/queretaro.svg" alt="querétaro" class="state"></a>
 				</div>
 				<div class="item col-sm-4">
 					<div class="title oswald italic">SUCURSAL MÉXICO</div>
@@ -121,7 +124,7 @@
 						Col. Insurgentes<br>
 						México D.F., C.P. 28442
 					</div>
-					<img src="images/cdmx.svg" alt="cdmx" class="state">
+					<a href="{{ url('contacto') }}#sucursales"><img src="images/cdmx.svg" alt="cdmx" class="state"></a>
 				</div>
 			</div>
 		</div>

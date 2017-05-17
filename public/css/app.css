@@ -7785,6 +7785,14 @@ button.close {
   color: #d0332a;
 }
 
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
 .bg-red {
   background-color: #d0332a;
 }
@@ -7897,6 +7905,17 @@ body {
   width: 110px;
   height: auto;
   display: inline-block;
+}
+
+.nav > li > a {
+  padding: 10px;
+}
+
+.nav > li > a.login-btn {
+  background-color: #d0332a;
+  color: white;
+  border-radius: 4px;
+  margin-left: 10px;
 }
 
 .container > .navbar-header {
@@ -8761,6 +8780,9 @@ footer ._25-years-footer img {
     height: auto;
     display: block;
   }
+  .more .icon-mas {
+    color: black;
+  }
   ._25-years {
     background: #e83024 url(../images/25-years.png) no-repeat center right;
     background-size: 80%;
@@ -8779,6 +8801,14 @@ footer ._25-years-footer img {
   }
   ._25-years-text span {
     font-size: 1.6em;
+  }
+  .text-25-years {
+    padding-top: 60px;
+    font-size: 1.5em;
+    line-height: 2em;
+    width: 60%;
+    float: right;
+    text-shadow: 2px 2px 8px #000;
   }
   .info-service {
     padding: 80px 30px 20px 30px;
@@ -8907,10 +8937,12 @@ footer ._25-years-footer img {
   }
   .item.advantages {
     text-transform: none;
-    padding-top: 40px;
+    padding-top: 0;
+    overflow: hidden;
     border-bottom: 1px solid #afafaf;
-    background: transparent url(../images/colaborador.png) no-repeat right bottom;
     background-size: 250px;
+    text-shadow: 2px 2px 8px #fff;
+    padding-bottom: 50px;
   }
   .item.advantages .title {
     padding-left: 40px;
@@ -8970,10 +9002,21 @@ footer ._25-years-footer img {
 
 @media screen and (min-width: 992px) {
   .navbar-default .navbar-brand {
-    padding-top: 15px;
+    padding: 0;
+    height: auto;
+    padding-top: 10px;
   }
   .navbar-default .navbar-brand img {
-    width: 150px;
+    width: 210px;
+  }
+  .navbar-default .navbar-collapse {
+    padding-bottom: 1px;
+  }
+  .nav > li > a {
+    padding: 10px 15px;
+  }
+  .navbar-nav {
+    margin-top: 10px;
   }
   .main-banners-container {
     height: 540px;
@@ -8984,7 +9027,7 @@ footer ._25-years-footer img {
   .main-banners-container p {
     padding-top: 185px;
     font-size: 2em;
-    width: 280px;
+    width: 340px;
   }
   .main-banners-container p .lines {
     bottom: -30px;
@@ -9061,6 +9104,9 @@ footer ._25-years-footer img {
     margin-top-margin-left: 50px;
   }
   /*QUIENES SOMOS*/
+  .history-item {
+    padding-bottom: 50px;
+  }
   .image-item {
     text-align: center;
   }
@@ -9149,11 +9195,23 @@ footer ._25-years-footer img {
 
 @media screen and (min-width: 1200px) {
   .row.who-we-are .back-image {
-    right: 30px;
-    width: 570px;
+    right: 130px;
+    width: 470px;
   }
   .row.who-we-are p {
     width: 420px;
+  }
+  .item.mision .description {
+    width: 600px;
+    font-size: 1.3em;
+  }
+  .item.vision .description {
+    width: 600px;
+    font-size: 1.3em;
+  }
+  .item.valores .description {
+    width: 600px;
+    font-size: 1.3em;
   }
 }
 

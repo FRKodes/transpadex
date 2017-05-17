@@ -90,8 +90,8 @@
 			<p class="mayus text-center">Camión <br> 10 toneladas</p>
 		</div>
 		<div class="col-xs-6 col-sm-3">
-			<img src="images/camion-plataforma-48-y-53-pies.svg" alt="camion plataforma 48 y 53 pies">
-			<p class="mayus text-center">Camión <br> 48 y 53 pies</p>
+			<img src="images/camion-plataforma-48-y-53-pies.svg" alt="camion plataforma 40 pies">
+			<p class="mayus text-center">Camión <br> 40" pies</p>
 		</div>
 	</div>
 @stop
