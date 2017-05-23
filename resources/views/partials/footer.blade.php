@@ -5,7 +5,7 @@
 			<li><a href="{{ url('/') }}">Inicio</a></li>
 			<li><a href="{{ url('servicios') }}">Servicios</a></li>
 			<li><a href="{{ url('quienes-somos') }}">Quiénes Somos</a></li>
-			<li><a href="{{ url('flotillas') }}">Flotillas</a></li>
+			<li><a href="{{ url('flotilla') }}">Flotilla</a></li>
 			<li><a href="{{ url('clientes') }}">Clientes</a></li>
 			<li><a href="{{ url('contacto') }}">Contacto</a></li>
 		</ul>

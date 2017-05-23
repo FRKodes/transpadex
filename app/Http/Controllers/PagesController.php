@@ -21,9 +21,9 @@ class PagesController extends Controller
 		return View('pages.quienes-somos');
 	}
 	
-	public function flotillas()
+	public function flotilla()
 	{
-		return View('pages.flotillas');
+		return View('pages.flotilla');
 	}
 
 	public function clientes()

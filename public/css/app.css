@@ -7781,6 +7781,10 @@ button.close {
   font-family: 'Montserrat', sans-serif;
 }
 
+._50-percent {
+  width: 50%;
+}
+
 .red {
   color: #d0332a;
 }
@@ -7831,6 +7835,10 @@ button.close {
 
 .xs-p-l-0-sm-p-l-15 {
   padding-left: 0;
+}
+
+.border-bottom-black {
+  border-bottom: 1px solid black;
 }
 
 body {
@@ -7943,7 +7951,7 @@ body {
 }
 
 .main-banners-container .item.dos {
-  background: transparent url(../images/banner-home-02.jpg) no-repeat center center;
+  background: transparent url(../images/banner-home-02.jpg) no-repeat center bottom;
   background-size: cover;
 }
 
@@ -7957,7 +7965,7 @@ body {
 }
 
 .main-banners-container .item.cuatro {
-  background: transparent url(../images/banner-home-04.jpg) no-repeat center center;
+  background: transparent url(../images/banner-home-04-new.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -7966,7 +7974,7 @@ body {
   width: 185px;
   padding-top: 40px;
   margin-left: 5%;
-  text-shadow: 2px 2px 8px #000;
+  text-shadow: 6px 6px 12px #000, 0 0 5px #000;
   position: relative;
   z-index: 1;
 }
@@ -8123,6 +8131,15 @@ body {
   color: white;
 }
 
+._25-years-image-block {
+  width: 90px;
+  height: auto;
+  position: absolute;
+  top: -50px;
+  left: 35%;
+  z-index: 1;
+}
+
 ._25-years {
   background: #e83024;
   color: white;
@@ -8160,7 +8177,7 @@ body {
   width: 50%;
   display: inline-block;
   overflow: hidden;
-  background: transparent url(../images/fletes.jpg) no-repeat center center;
+  background: transparent url(../images/fletes-new.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -8277,6 +8294,14 @@ body {
   background-size: cover;
 }
 
+.info-service h2 {
+  margin-bottom: 45px;
+}
+
+.info-service h3 {
+  margin: 0;
+}
+
 .branches {
   background: #443c3a;
   color: white;
@@ -8329,6 +8354,10 @@ body {
 
 .section-top-banner.flotilla p {
   text-align: center;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin-top: 30px;
+  margin-left: 0;
 }
 
 .section-top-banner.contacto {
@@ -8349,13 +8378,13 @@ body {
   text-align: center;
   margin: 55px 0 0 0;
   color: white;
-  text-shadow: 2px 2px 8px #000;
+  text-shadow: 6px 6px 12px #000, 0 0 5px #000;
 }
 
 .section-top-banner p {
   font-size: 2em;
   color: white;
-  text-shadow: 4px 4px 16px #000;
+  text-shadow: 6px 6px 12px #000, 0 0 5px #000;
   line-height: .9em;
   margin-top: 60px;
   margin-left: 30px;
@@ -8546,6 +8575,11 @@ h1.title-top {
   padding-bottom: 30px;
 }
 
+.clients-text {
+  font-size: 1.1em;
+  text-align: center;
+}
+
 /*CONTACTO*/
 #contactForm {
   padding-top: 30px;
@@ -8590,7 +8624,7 @@ textarea {
 }
 
 .branch-item .branch-photo {
-  height: 219px;
+  height: 240px;
   padding: 0;
   background-position: center center;
 }
@@ -8607,9 +8641,8 @@ textarea {
 
 .branch-item .branch-info .map {
   height: 100px;
-  background-color: purple;
-  width: 114%;
-  margin-left: -7%;
+  width: 120%;
+  margin-left: -10%;
 }
 
 footer {
@@ -8663,6 +8696,12 @@ footer ._25-years-footer img {
   width: 110px;
   height: auto;
   display: inline-block;
+}
+
+@media screen and (min-width: 375px) {
+  .branch-item .branch-info .map {
+    height: 121px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -8961,7 +9000,9 @@ footer ._25-years-footer img {
     padding: 15px 0;
   }
   .section-top-banner.flotilla p {
-    margin-top: 170px;
+    margin-top: 120px;
+    font-size: 2em;
+    line-height: 1.5em;
   }
   /*CLIENTES*/
   .clients {
@@ -8972,22 +9013,29 @@ footer ._25-years-footer img {
     margin-top: 160px;
     font-size: 3.4em;
   }
+  .clients-text {
+    font-size: 1.4em;
+  }
   /*CONTACTO*/
   h2.title-top {
     margin-top: 10px;
     margin-bottom: 10px;
   }
   .branch-item .branch-photo {
-    height: 268px;
+    height: 319px;
   }
   .branch-item .branch-info {
     padding: 20px 15px 0 15px;
   }
   .branch-item .branch-info .address {
     margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   .branch-item .branch-info .map {
     height: 150px;
+    width: 108%;
+    margin-left: -4%;
   }
   footer .title {
     text-align: left;
@@ -9029,6 +9077,9 @@ footer ._25-years-footer img {
     font-size: 2em;
     width: 340px;
   }
+  .main-banners-container p.first {
+    left: 15%;
+  }
   .main-banners-container p .lines {
     bottom: -30px;
     right: -110px;
@@ -9050,6 +9101,11 @@ footer ._25-years-footer img {
   .row.who-we-are {
     padding-top: 50px;
     padding-bottom: 140px;
+  }
+  ._25-years-image-block {
+    width: 100px;
+    top: -35px;
+    left: 30%;
   }
   ._25-years {
     padding-bottom: 40px;
@@ -9083,6 +9139,9 @@ footer ._25-years-footer img {
   }
   .branches .item .address {
     padding-left: 40px;
+  }
+  .branches .item a:hover img {
+    border-bottom: 1px solid white;
   }
   /*SERVICIOS*/
   .section-top-banner {
@@ -9120,7 +9179,9 @@ footer ._25-years-footer img {
   }
   /*FLOTILLA*/
   .section-top-banner.flotilla p {
-    margin-top: 245px;
+    margin-top: 160px;
+    font-size: 2.2em;
+    line-height: 1.6em;
   }
   h1.title-top {
     font-size: 2.6em;
@@ -9140,6 +9201,10 @@ footer ._25-years-footer img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .truck-icons .col-xs-6 a {
+    width: 100%;
+    text-align: center;
   }
   .truck-icons img {
     width: 80%;
@@ -9180,7 +9245,7 @@ footer ._25-years-footer img {
     margin-left: 50px;
   }
   .branch-item .branch-info .map {
-    height: 260px;
+    height: 283px;
   }
   footer .social-column .title {
     text-align: center;
@@ -9201,6 +9266,11 @@ footer ._25-years-footer img {
   .row.who-we-are p {
     width: 420px;
   }
+  ._25-years-image-block {
+    width: 100px;
+    top: -40px;
+    left: 38%;
+  }
   .item.mision .description {
     width: 600px;
     font-size: 1.3em;
@@ -9213,9 +9283,32 @@ footer ._25-years-footer img {
     width: 600px;
     font-size: 1.3em;
   }
+  .clients-text {
+    font-size: 1.5em;
+  }
+  .section-top-banner.flotilla p {
+    margin-top: 170px;
+    font-size: 2.6em;
+  }
 }
 
 @media screen and (min-width: 1800px) {
+  .main-banners-container {
+    height: 740px;
+  }
+  .main-banners-container .item {
+    height: 740px;
+  }
+  .main-banners-container p {
+    padding-top: 185px;
+    font-size: 2em;
+    width: 340px;
+  }
+  .main-banners-container p .lines {
+    bottom: -30px;
+    right: -110px;
+    width: 135px;
+  }
   .section-top-banner {
     height: 670px;
   }
@@ -9226,5 +9319,9 @@ footer ._25-years-footer img {
   }
   .quienes-somos p {
     width: 700px;
+  }
+  .section-top-banner.flotilla p {
+    margin-top: 235px;
+    font-size: 3em;
   }
 }

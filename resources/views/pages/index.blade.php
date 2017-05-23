@@ -11,8 +11,8 @@
 				<h2 class="home-title oswald italic bold">SERVICIOS QUE TE OFRECEMOS</h2>
 				<div class="home-services-container">
 					<div class="item">
-						<div class="service"><a href="{{ url('flotillas') }}"><img src="/images/fletes-express.svg" alt="servicio fletes express"><span class="description">fletes express a <br>toda a república</span></a></div>
-						<div class="service"><a href="{{ url('flotillas') }}"><img src="/images/almacenaje-y-distribucion.svg" alt="servicio almacenaje y distribucion"><span class="description">almacenaje <br>y distribución</span></a></div>
+						<div class="service"><a href="{{ url('servicios') }}"><img src="/images/fletes-express.svg" alt="servicio fletes express"><span class="description">fletes express a <br>toda a república</span></a></div>
+						<div class="service"><a href="{{ url('servicios') }}#storage-service-block"><img src="/images/almacenaje-y-distribucion.svg" alt="servicio almacenaje y distribucion"><span class="description">almacenaje <br>y distribución</span></a></div>
 					</div>
 					<div class="item">
 						<div class="service"><a href="{{ url('flotillas') }}"><img src="/images/camion-tonelada.svg" alt="servicio camion una tonelada"><span class="description">camión <br>1 tonelada</span></a></div>
@@ -34,6 +34,7 @@
 				<p>Nuestro principal objetivo es la satisfacción de nuestros clientes, a través de la excelencia de nuestro capital humano, flotilla en óptimas condiciones y tecnología.</p>
 				<p class="more"><a href="{{ url('quienes-somos') }}"><span class="icon-mas"></span> <span class="black hidden-xs">Conoce más de nosotros</span></a></p>
 				<div class="back-image hidden-xs"><img src="images/quienes-somos-background.jpg" alt="quienes somos background"></div>
+				<figure class="_25-years-image-block"><img src="images/25-aniversario.svg" alt="25 aniversario"></figure>
 			</div>	
 		</div>
 
@@ -71,11 +72,15 @@
 			<div class="info-service">
 				<h2 class="asap">Fletes</h2>
 				<div class="fletes-container">
-					<div class="item"><h3 class="mayus">COBERTURA NACIONAL</h3></div>
-					<div class="item"><h3 class="mayus">ENTREGA EN CEDIS BAJO CITA</h3></div>
-					<div class="item"><h3 class="mayus">RECOLECCIÓN Y ENTREGA DOOR TO DOOR</h3></div>
-					<div class="item"><h3 class="mayus">SERVICIO POR COBRAR EN DESTINO</h3></div>
-					<div class="item"><h3 class="mayus">DESARROLLOS DE PROYECTOS A LA MEDIDA DE TU EMPRESA</h3></div>
+					<div class="item">
+						<h3 class="mayus">COBERTURA NACIONAL</h3> <br>
+						<h3 class="mayus">ENTREGA EN CEDIS BAJO CITA</h3> <br>
+						<h3 class="mayus">RECOLECCIÓN Y ENTREGA DOOR TO DOOR</h3>
+					</div>
+					<div class="item">
+						<h3 class="mayus">SERVICIO POR COBRAR EN DESTINO</h3> <br>
+						<h3 class="mayus">DESARROLLOS DE PROYECTOS A LA MEDIDA DE TU EMPRESA</h3>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -84,14 +89,22 @@
 			<div class="info-service">
 				<h2 class="asap">Almacenamiento y distribución</h2>
 				<div class="storage-container">
-					<div class="item"><h3 class="mayus">Contamos con más en 3000 mts2 en la ciudad de Guadalajara y México.</h3></div>
-					<div class="item"><h3 class="mayus">Control de inventarios.</h3></div>
-					<div class="item"><h3 class="mayus">Sistema de seguridad 24/7</h3></div>
-					<div class="item"><h3 class="mayus">Cross dock</h3></div>
-					<div class="item"><h3 class="mayus">Carga y descarga de unidades</h3></div>
-					<div class="item"><h3 class="mayus">Re empaque y etiquetado de producto</h3></div>
-					<div class="item"><h3 class="mayus">Surtido y armado de pedidos</h3></div>
-					<div class="item"><h3 class="mayus">Distribución local y nacional</h3></div>
+					<div class="item">
+						<h3 class="mayus">Contamos con más en 3000 mts2 en la ciudad de Guadalajara y México.</h3> <br>
+						<h3 class="mayus">Control de inventarios.</h3> <br>
+						<h3 class="mayus">Sistema de seguridad 24/7</h3>
+					</div>
+					
+					<div class="item">
+						<h3 class="mayus">Cross dock</h3> <br>
+						<h3 class="mayus">Carga y descarga de unidades</h3> <br>
+						<h3 class="mayus">Re empaque y etiquetado de producto</h3>
+					</div>
+					
+					<div class="item">
+						<h3 class="mayus">Surtido y armado de pedidos</h3> <br>
+						<h3 class="mayus">Distribución local y nacional</h3>
+					</div>
 				</div>
 			</div>
 			<div class="photo-home-service"></div>

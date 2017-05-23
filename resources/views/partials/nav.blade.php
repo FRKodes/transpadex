@@ -19,7 +19,7 @@
 				<li class="@if (Request::is('/')) active @endif"><a href="{{ url('/') }}">Inicio</a></li>
 				<li class="@if (Request::is('servicios')) active @endif"><a href="{{ url('servicios') }}">Servicios</a></li>
 				<li class="@if (Request::is('quienes-somos')) active @endif"><a href="{{ url('quienes-somos') }}">Quienes Somos</a></li>
-				<li class="@if (Request::is('flotillas')) active @endif"><a href="{{ url('flotillas') }}">Flotillas</a></li>
+				<li class="@if (Request::is('flotilla')) active @endif"><a href="{{ url('flotilla') }}">Flotilla</a></li>
 				<li class="@if (Request::is('clientes')) active @endif"><a href="{{ url('clientes') }}">Clientes</a></li>
 				{{-- <li class="@if (Request::is('contacto')) active @endif"><a href="{{ url('contacto') }}">Contacto</a></li> --}}
 				<li class="@if (Request::is('sucursales')) active @endif"><a href="{{ url('sucursales') }}">Sucursales</a></li>

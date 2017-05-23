@@ -56,18 +56,19 @@
 	</div>
 
 	<div class="container-fluid bg-red" id="sucursales">
+
 		<div class="row">
 			<div class="container">
-				<h2 class="title-top white oswald italic text-center hidden-md hidden-lg">CEDIS MATRIZ</h2>
+				<h2 class="title-top white oswald italic text-center">CEDIS MATRIZ</h2>
 			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid bg-gray">
+	<div class="container-fluid bg-gray m-b-40 border-bottom-black">
 		<div class="row branch-item">
 			<div class="col-xs-5 branch-photo gdl"></div>
 			<div class="col-xs-7 branch-info">
-				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm">CEDIS MATRIZ</h2>
+				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm hidden">CEDIS MATRIZ</h2>
 				<div class="address">
 					<p>
 						Carretera a Chapala #5010 <br>
@@ -84,16 +85,16 @@
 	<div class="container-fluid bg-red">
 		<div class="row">
 			<div class="container">
-				<h2 class="title-top white oswald italic text-center hidden-md hidden-lg">SUCURSAL EN QUERÉTARO</h2>
+				<h2 class="title-top white oswald italic text-center">SUCURSAL EN QUERÉTARO</h2>
 			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid bg-gray">
+	<div class="container-fluid bg-gray m-b-40 border-bottom-black">
 		<div class="row branch-item">
 			<div class="col-xs-5 branch-photo gdl"></div>
 			<div class="col-xs-7 branch-info">
-				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm">SUCURSAL EN QUERÉTARO</h2>
+				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm hidden">SUCURSAL EN QUERÉTARO</h2>
 				<div class="address">
 					<p>
 						Carretera a Chapala #5010 <br>
@@ -110,16 +111,16 @@
 	<div class="container-fluid bg-red">
 		<div class="row">
 			<div class="container">
-				<h2 class="title-top white oswald italic text-center hidden-md hidden-lg">SUCURSAL EN DF</h2>
+				<h2 class="title-top white oswald italic text-center">SUCURSAL EN DF</h2>
 			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid bg-gray">
+	<div class="container-fluid bg-gray border-bottom-black">
 		<div class="row branch-item">
 			<div class="col-xs-5 branch-photo gdl"></div>
 			<div class="col-xs-7 branch-info">
-				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm">SUCURSAL EN DF</h2>
+				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm hidden">SUCURSAL EN DF</h2>
 				<div class="address">
 					<p>
 						Carretera a Chapala #5010 <br>

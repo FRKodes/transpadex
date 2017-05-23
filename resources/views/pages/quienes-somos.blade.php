@@ -9,7 +9,7 @@
 
 	<div class="container">
 		<p class="m-t-20">Transpadex nació en el año de 1991, fruto de una tradición familiar de varias generaciones. </p>
-		<p>A lo largo de 20 años se ha preocupado por innovar y diversificar sus servicios acorde a las necesidades de sus clientes, para brindar satisfacción en cada envío, con un servicio exprés y de alta calidad a cualquier parte de la república.</p>
+		<p>A lo largo de 25 años se ha preocupado por innovar y diversificar sus servicios acorde a las necesidades de sus clientes, para brindar satisfacción en cada envío, con un servicio exprés y de alta calidad a cualquier parte de la república.</p>
 	</div>
 
 	<div class="container">
@@ -39,7 +39,10 @@
 			</div>
 			<div class="col-sm-9 col-md-8">
 				<div class="title oswald italic">Misión</div>
-				<div class="description">Brindar soluciones integrales a los requerimientos de nuestros clientes; que tengan seguridad y confianza en sus traslados gracias a las óptimas condiciones en equipo de transporte y capacidad del personal.</div>
+				<div class="description">
+					<span class="hidden">Brindar soluciones integrales a los requerimientos de nuestros clientes; que tengan seguridad y confianza en sus traslados gracias a las óptimas condiciones en equipo de transporte y capacidad del personal.</span>
+					Transpadex tiene la misión de satisfacer las necesidades de transporte de sus cluentes, brindándoles soluciones integrales en cada uno de sus requerimientos; además de ofrecerles seguridad y confianza en sus traslados apoyándose de las óptimas condiciones de su equipo de transporte y capacidad del personal.
+				</div>
 			</div>
 		</div>
 
@@ -49,7 +52,10 @@
 			</div>
 			<div class="col-sm-9 col-md-8">
 				<div class="title oswald italic">Visión</div>
-				<div class="description">Consolidarse como una empresa líder en transporte exprés a toda la república, creciendo a un ritmo constante.</div>
+				<div class="description">
+					<span class="hidden">Consolidarse como una empresa líder en transporte exprés a toda la república, creciendo a un ritmo constante.</span>
+					Transpadex tiene la visión de consolidarse como una de las empresas LIDER en el giro de transporte exprés a toda la república, creciendo a un ritmo constante; transmitiendo los valores a nuestro capital humano y siendo reconocidos por nuestros clientes como su mejor opción de transporte.
+				</div>
 			</div>
 		</div>
 	</div>
@@ -67,7 +73,7 @@
 						<div class="value">- Respeto</div>
 					</div>
 					<div class="description col-sm-7 col-md-8">
-						Con estos valores como base, a lo largo de  20 años, hemos encontrado un crecimiento constante, excelente personal y la satisfacción de nuestros clientes.
+						Con estos valores como base, a lo largo de  25 años, hemos encontrado un crecimiento constante, excelente personal y la satisfacción de nuestros clientes.
 					</div>
 				</div>
 			</div>

@@ -1,5 +1,5 @@
 <div class="item">
-	<p class="asap">
+	<p class="asap first">
 		<span class="one">Su aliado</span> <br>
 		<span class="two">en transporte</span> <br>
 		<span class="three">dedicado</span>

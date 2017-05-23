@@ -85,7 +85,7 @@
 
 	<div class="container-fluid">
 		<div class="row storage-services">
-			<div class="container">
+			<div class="container" id="storage-service-block">
 				<h2 class="text-center oswald mayus section-title m-b-40">Almacenamiento y distribución</h2>
 				<div class="col-sm-6 storage-item">
 					<div class="item-container">
