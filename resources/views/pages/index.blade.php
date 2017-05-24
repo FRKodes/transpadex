@@ -15,12 +15,12 @@
 						<div class="service"><a href="{{ url('servicios') }}#storage-service-block"><img src="/images/almacenaje-y-distribucion.svg" alt="servicio almacenaje y distribucion"><span class="description">almacenaje <br>y distribución</span></a></div>
 					</div>
 					<div class="item">
-						<div class="service"><a href="{{ url('flotillas') }}"><img src="/images/camion-tonelada.svg" alt="servicio camion una tonelada"><span class="description">camión <br>1 tonelada</span></a></div>
-						<div class="service"><a href="{{ url('flotillas') }}"><img src="/images/camion-35-toneladas.svg" alt="servicio camion 3 y 5 toneladas"><span class="description">camión <br>3 y 5 toneladas</span></a></div>
+						<div class="service"><a href="{{ url('flotilla') }}"><img src="/images/camion-tonelada.svg" alt="servicio camion una tonelada"><span class="description">camión <br>1 tonelada</span></a></div>
+						<div class="service"><a href="{{ url('flotilla') }}"><img src="/images/camion-35-toneladas.svg" alt="servicio camion 3 y 5 toneladas"><span class="description">camión <br>3 y 5 toneladas</span></a></div>
 					</div>
 					<div class="item">
-						<div class="service"><a href="{{ url('flotillas') }}"><img src="/images/camion-10-toneladas.svg" alt="servicio camion 10 toneladas"><span class="description">camion<br>10 toneladas</span></a></div>
-						<div class="service"><a href="{{ url('flotillas') }}"><img src="/images/camion-4853-pies.svg" alt="servicio camion 48 y 53 pies"><span class="description">camion<br>48' y 53' pies</span></a></div>						
+						<div class="service"><a href="{{ url('flotilla') }}"><img src="/images/camion-10-toneladas.svg" alt="servicio camion 10 toneladas"><span class="description">camion<br>10 toneladas</span></a></div>
+						<div class="service"><a href="{{ url('flotilla') }}"><img src="/images/camion-4853-pies.svg" alt="servicio camion 48 y 53 pies"><span class="description">camion<br>48' y 53' pies</span></a></div>						
 					</div>
 				</div>
 			</div>
