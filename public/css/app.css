@@ -8624,7 +8624,7 @@ textarea {
 }
 
 .branch-item .branch-photo {
-  height: 240px;
+  height: 395px;
   padding: 0;
   background-position: center center;
 }
@@ -8637,12 +8637,17 @@ textarea {
 .branch-item .branch-info {
   padding: 20px 15px 0 15px;
   overflow: hidden;
+  word-wrap: break-word;
+  position: relative;
+  height: 395px;
 }
 
 .branch-item .branch-info .map {
   height: 100px;
   width: 120%;
   margin-left: -10%;
+  position: absolute;
+  bottom: 0;
 }
 
 footer {
@@ -9227,11 +9232,12 @@ footer ._25-years-footer img {
     background-size: 500px;
   }
   .branch-item .branch-photo {
-    height: 432px;
+    height: 480px;
   }
   .branch-item .branch-info {
     padding: 0 15px 0 15px;
     overflow: hidden;
+    height: 480px;
   }
   .branch-item .branch-info .title-top {
     margin-top: 0;

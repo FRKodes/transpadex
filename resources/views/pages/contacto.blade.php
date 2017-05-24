@@ -59,7 +59,7 @@
 
 		<div class="row">
 			<div class="container">
-				<h2 class="title-top white oswald italic text-center">CEDIS MATRIZ</h2>
+				<h2 class="title-top white oswald italic text-center">CEDIS MATRIZ GDL</h2>
 			</div>
 		</div>
 	</div>
@@ -71,10 +71,10 @@
 				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm hidden">CEDIS MATRIZ</h2>
 				<div class="address">
 					<p>
-						Carretera a Chapala #5010 <br>
-						Col. Paseos del Lago <br>
-						Tlaquepaque, Jalisco. <br>
-						C.P. 45619
+						Carretera a Chapala No. 5010<br>
+						Col. Paseos del Lago. Tlaquepaque, Jalisco C.P. 45619 <br>
+						Tel. <a class="white" href="tel:01 33 3657 6036">01 33 3657 6036</a> / <a class="white" href="tel:01 33 3344 6999">01 33 3344 6999</a> <br>
+						Mail: <a class="white" href="mailto:trafico@transpadex.com">trafico@transpadex.com</a> / <a class="white" href="mailto:atencion.clientes@transpadex.com">atencion.clientes@transpadex.com</a>
 					</p>
 				</div>
 				<div class="map" id="map_1"></div>
@@ -97,10 +97,12 @@
 				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm hidden">SUCURSAL EN QUERÉTARO</h2>
 				<div class="address">
 					<p>
-						Carretera a Chapala #5010 <br>
-						Col. Paseos del Lago <br>
-						Tlaquepaque, Jalisco. <br>
-						C.P. 45619
+						Calle Xocotl no. 14, <br>
+						Colonia Cumbres de Conin. <br>
+						El Marques, Qro. <br>
+						Tel. <a class="white" href="tel:442 277 4583">442 277 4583</a> <br>
+						Mail <a class="white" href="mailto:ventasqro@transpadex.com.mx">ventasqro@transpadex.com.mx</a> <br>
+						Mobile <a class="white" href="tel:33 22 55 54 55">33 22 55 54 55</a> <br> <br><br>
 					</p>
 				</div>
 				<div class="map" id="map_2"></div>
@@ -123,10 +125,12 @@
 				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm hidden">SUCURSAL EN DF</h2>
 				<div class="address">
 					<p>
-						Carretera a Chapala #5010 <br>
-						Col. Paseos del Lago <br>
-						Tlaquepaque, Jalisco. <br>
-						C.P. 45619
+						Avance no. 10, col. Atlanta, <br>
+						Cuautitlan Izcalli, Estado de Mexico <br>
+						CP 54740 <br>
+						Oficina <a class="white" href="tel:55 5881 9652">55 5881 9652</a> / <a class="white" href="tel:55 7592 0526">55 7592 0526</a> <br>
+						Mail: <a class="white" href="mailto:ventasmx@transpadex.com">ventasmx@transpadex.com</a>  <br>
+						Celular <a class="white" href="tel:+52 1 33 14 79 27 24">33 14 79 27 24</a> <br> <br>
 					</p>
 				</div>
 				<div class="map" id="map_3"></div>

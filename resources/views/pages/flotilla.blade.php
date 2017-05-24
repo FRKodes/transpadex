@@ -99,7 +99,7 @@
 			        <h4 class="modal-title" id="myModalLabel">Unidades 10 Toneladas</h4>
 			      </div>
 			      <div class="modal-body text-center">
-			        <img src="images/caja-seca-10-toneladas.jpg" class="_50-percent" alt="caja seca 10 toneladas">
+			        <img src="images/caja-seca-10-toneladas.jpeg" class="_50-percent" alt="caja seca 10 toneladas">
 			      </div>
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

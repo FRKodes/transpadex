@@ -118,8 +118,8 @@
 						Carretera a Chapala No. 5010<br>
 						Col. Paseos del Lago.<br>
 						Tlaquepaque, Jalisco C.P. 45619 <br>
-						Tel. 0133 36576036 / 0133 33446999 <br>
-						Mail: <a class="white" href="mailto:trafico@transpadex.com">trafico@transpadex.com</a> / <a class="white" href="mailto:atencion.clientes@transpadex.com">atencion.clientes@transpadex.com</a>
+						Tel. <a href="tel:01 33 3657 6036">01 33 3657 6036</a> / <a href="tel:01 33 3344 6999">01 33 3344 6999</a> <br>
+						Mail: <a href="mailto:trafico@transpadex.com">trafico@transpadex.com</a> / <a href="mailto:atencion.clientes@transpadex.com">atencion.clientes@transpadex.com</a>
 
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/jalisco.svg" alt="jalisco" class="state"></a>
@@ -130,9 +130,9 @@
 						Calle Xocotl no. 14, <br>
 						Colonia Cumbres de Conin<br>
 						El Marques, Qro. <br>
-						Tel. (442) 2774583 <br>
-						Mail <a class="white" href="mailto:ventasqro@transpadex.com.mx">ventasqro@transpadex.com.mx</a> <br>
-						Mobile 3322555455 <br>
+						Tel. <a href="tel:442 277 4583">442 277 4583</a> <br>
+						Mail <a href="mailto:ventasqro@transpadex.com.mx">ventasqro@transpadex.com.mx</a> <br>
+						Mobile <a href="tel:33 22 55 54 55">33 22 55 54 55</a> <br>
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/queretaro.svg" alt="querétaro" class="state"></a>
 				</div>
@@ -142,9 +142,9 @@
 						Avance no. 10, col. Atlanta, <br>
 						Cuautitlan Izcalli, Estado de Mexico <br>
 						CP 54740 <br>
-						oficina 55 5881 9652 / 55 7592 0526 <br>
-						Mail: <a class="white" href="mailto:ventasmx@transpadex.com">ventasmx@transpadex.com</a>  <br>
-						celular 3314792724 <br>
+						Oficina <a href="tel:55 5881 9652">55 5881 9652</a> / <a href="tel:55 7592 0526">55 7592 0526</a> <br>
+						Mail: <a href="mailto:ventasmx@transpadex.com">ventasmx@transpadex.com</a>  <br>
+						Celular <a href="tel:+52 1 33 14 79 27 24">33 14 79 27 24</a> <br>
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/cdmx.svg" alt="cdmx" class="state"></a>
 				</div>
