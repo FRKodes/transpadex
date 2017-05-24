@@ -117,25 +117,34 @@
 					<div class="address">
 						Carretera a Chapala No. 5010<br>
 						Col. Paseos del Lago.<br>
-						Tlaquepaque, Jalisco C.P. 45619
+						Tlaquepaque, Jalisco C.P. 45619 <br>
+						Tel. 0133 36576036 / 0133 33446999 <br>
+						Mail: <a class="white" href="mailto:trafico@transpadex.com">trafico@transpadex.com</a> / <a class="white" href="mailto:atencion.clientes@transpadex.com">atencion.clientes@transpadex.com</a>
+
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/jalisco.svg" alt="jalisco" class="state"></a>
 				</div>
 				<div class="item col-sm-4">
 					<div class="title oswald italic">SUCURSAL QUERÉTARO</div>
 					<div class="address">
-						Lorem ipsum dolor sit amet, consectetur adipisicing<br>
-						Elit. Numquam animi <br>
-						reprehenderit autem 
+						Calle Xocotl no. 14, <br>
+						Colonia Cumbres de Conin<br>
+						El Marques, Qro. <br>
+						Tel. (442) 2774583 <br>
+						Mail <a class="white" href="mailto:ventasqro@transpadex.com.mx">ventasqro@transpadex.com.mx</a> <br>
+						Mobile 3322555455 <br>
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/queretaro.svg" alt="querétaro" class="state"></a>
 				</div>
 				<div class="item col-sm-4">
 					<div class="title oswald italic">SUCURSAL MÉXICO</div>
 					<div class="address">
-						Blvd. A López Mateos No. 646<br>
-						Col. Insurgentes<br>
-						México D.F., C.P. 28442
+						Avance no. 10, col. Atlanta, <br>
+						Cuautitlan Izcalli, Estado de Mexico <br>
+						CP 54740 <br>
+						oficina 55 5881 9652 / 55 7592 0526 <br>
+						Mail: <a class="white" href="mailto:ventasmx@transpadex.com">ventasmx@transpadex.com</a>  <br>
+						celular 3314792724 <br>
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/cdmx.svg" alt="cdmx" class="state"></a>
 				</div>
