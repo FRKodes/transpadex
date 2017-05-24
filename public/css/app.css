@@ -8493,6 +8493,36 @@ h1 {
   color: black;
 }
 
+.history-item._1991 {
+  background: transparent url(../images/timeline-1991.jpg) no-repeat left 10px;
+  background-size: 120px;
+}
+
+.history-item._1998 {
+  background: transparent url(../images/timeline-1998.jpg) no-repeat left 10px;
+  background-size: 110px;
+}
+
+.history-item._2001 {
+  background: transparent url(../images/timeline-2001.jpg) no-repeat left 10px;
+  background-size: 110px;
+}
+
+.history-item._2005 {
+  background: transparent url(../images/timeline-2005.jpg) no-repeat left 10px;
+  background-size: 120px;
+}
+
+.history-item._2015 {
+  background: transparent url(../images/timeline-2015.jpg) no-repeat left 10px;
+  background-size: 110px;
+}
+
+.history-item._2016 {
+  background: transparent url(../images/timeline-2016.jpg) no-repeat left top;
+  background-size: 120px;
+}
+
 .history-item.first-one {
   background: transparent url(../images/speedy.svg) no-repeat left top;
   background-size: 90px;
