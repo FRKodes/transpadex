@@ -8302,6 +8302,10 @@ body {
   margin: 0;
 }
 
+.info-service h3 span {
+  font-size: .9em;
+}
+
 .branches {
   background: #443c3a;
   color: white;

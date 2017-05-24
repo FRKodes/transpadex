@@ -13,23 +13,89 @@
 	</div>
 
 	<div class="container">
-		<div class="col-sm-4 history-item first-one">
+		<div class="col-sm-5 col-md-4 col-lg-offset-1 history-item truck-one">
 			<div class="title">1991</div>
-			<div class="description">1991 Nace bajo el nombre de Transportes Padilla</div>
+			<div class="description">Se adquiere la primera unidad Ford F350. Pioneros en el ramo de “Flete express” </div>
 			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
 		</div>
 		<div class="col-sm-1 arrow hidden-xs">
 			<span class="icon-flecha-der red _768"></span>
 		</div>
 
-		<div class="col-sm-4 history-item second-one">
-			<div class="title">2014</div>
-			<div class="description">2014 Nos renovamos totalmente, cambiando el nombre a Transpadex.</div>
+		<div class="col-sm-5 col-md-4 history-item first-one">
+			<div class="title">1994</div>
+			<div class="description">Se adquiere a Speedy Gonzales como identidad de la empresa como símbolo de “rapidez”. </div>
 			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
 		</div>
 		<div class="col-sm-1 arrow hidden-xs">
 			<span class="icon-flecha-der red _768"></span>
 		</div>
+
+		<div class="col-sm-5 col-md-4 col-lg-offset-1 history-item">
+			<div class="title">1998</div>
+			<div class="description">Se contaba con una flotilla de 10 unidades de Nissan y Ford F350 en la modalidad de redilas.</div>
+			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
+		</div>
+		<div class="col-sm-1 arrow hidden-xs">
+			<span class="icon-flecha-der red _768"></span>
+		</div>
+
+		<div class="col-sm-5 col-md-4 history-item">
+			<div class="title">2001</div>
+			<div class="description">Se incorporan a la flotilla unidades tipo Rabón y Thorton. <br><br><br></div>
+			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
+		</div>
+		<div class="col-sm-1 arrow hidden-xs">
+			<span class="icon-flecha-der red _768"></span>
+		</div>
+		
+		<div class="col-sm-5 col-md-4 col-lg-offset-1 history-item">
+			<div class="title">2005</div>
+			<div class="description">Se diversifica a unidades de Caja seca, contando con 18 unidades.</div>
+			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
+		</div>
+		
+		<div class="col-sm-1 arrow hidden-xs">
+			<span class="icon-flecha-der red _768"></span>
+		</div>
+
+		<div class="col-sm-5 col-md-4 history-item second-one">
+			<div class="title">2014</div>
+			<div class="description">Nos renovamos totalmente, cambiando el nombre a Transpadex.</div>
+			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
+		</div>
+		<div class="col-sm-1 arrow hidden-xs">
+			<span class="icon-flecha-der red _768"></span>
+		</div>
+
+		<div class="col-sm-5 col-md-4 col-lg-offset-1 history-item">
+			<div class="title">2015</div>
+			<div class="description">Se inaugura la sucursal de México y Querétaro</div>
+			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
+		</div>
+		<div class="col-sm-1 arrow hidden-xs">
+			<span class="icon-flecha-der red _768"></span>
+		</div>
+
+		<div class="col-sm-5 col-md-4 history-item">
+			<div class="title">2016</div>
+			<div class="description">Se inicia operaciones con unidades Tracto camión.</div>
+			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
+		</div>
+		<div class="col-sm-1 arrow hidden-xs">
+			<span class="icon-flecha-der red _768"></span>
+		</div>
+
+		<div class="col-sm-5 col-md-4 col-lg-offset-1 history-item">
+			<div class="title">2017</div>
+			<div class="description">Se cuenta con un parque vehicular propio de 45 unidades con capacidades diversas. Y más de 50 unidades subcontratadas.</div>
+			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
+		</div>
+		<div class="col-sm-1 arrow hidden-xs">
+			<span class="icon-flecha-der red _768"></span>
+		</div>
+
+
 	</div>
 
 	<div class="container">

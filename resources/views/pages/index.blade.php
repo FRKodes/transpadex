@@ -73,13 +73,13 @@
 				<h2 class="asap">Fletes</h2>
 				<div class="fletes-container">
 					<div class="item">
-						<h3 class="mayus">COBERTURA NACIONAL</h3> <br>
-						<h3 class="mayus">ENTREGA EN CEDIS BAJO CITA</h3> <br>
-						<h3 class="mayus">RECOLECCIÓN Y ENTREGA DOOR TO DOOR</h3>
+						<h3 class="mayus"><span class="icon-check"></span> COBERTURA NACIONAL</h3> <br>
+						<h3 class="mayus"><span class="icon-check"></span> ENTREGA EN CEDIS BAJO CITA</h3> <br>
+						<h3 class="mayus"><span class="icon-check"></span> RECOLECCIÓN Y ENTREGA DOOR TO DOOR</h3>
 					</div>
 					<div class="item">
-						<h3 class="mayus">SERVICIO POR COBRAR EN DESTINO</h3> <br>
-						<h3 class="mayus">DESARROLLOS DE PROYECTOS A LA MEDIDA DE TU EMPRESA</h3>
+						<h3 class="mayus"><span class="icon-check"></span> SERVICIO POR COBRAR EN DESTINO</h3> <br>
+						<h3 class="mayus"><span class="icon-check"></span> DESARROLLOS DE PROYECTOS A LA MEDIDA DE TU EMPRESA</h3>
 					</div>
 				</div>
 			</div>
@@ -90,15 +90,15 @@
 				<h2 class="asap">Almacenamiento y distribución</h2>
 				<div class="storage-container">
 					<div class="item">
-						<h3 class="mayus">Contamos con más en 3000 mts2 en la ciudad de Guadalajara y México.</h3> <br>
-						<h3 class="mayus">Control de inventarios.</h3> <br>
-						<h3 class="mayus">Sistema de seguridad 24/7</h3>
+						<h3 class="mayus"><span class="icon-check"></span> Contamos con más en 3000 mts2 en la ciudad de Guadalajara y México.</h3> <br>
+						<h3 class="mayus"><span class="icon-check"></span> Control de inventarios.</h3> <br>
+						<h3 class="mayus"><span class="icon-check"></span> Sistema de seguridad 24/7</h3>
 					</div>
 					
 					<div class="item">
-						<h3 class="mayus">Cross dock</h3> <br>
-						<h3 class="mayus">Carga y descarga de unidades</h3> <br>
-						<h3 class="mayus">Re empaque y etiquetado de producto</h3>
+						<h3 class="mayus"><span class="icon-check"></span> Cross dock</h3> <br>
+						<h3 class="mayus"><span class="icon-check"></span> Carga y descarga de unidades</h3> <br>
+						<h3 class="mayus"><span class="icon-check"></span> Re empaque y etiquetado de producto</h3>
 					</div>
 					
 					<div class="item">
