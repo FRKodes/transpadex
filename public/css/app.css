@@ -8673,6 +8673,17 @@ textarea {
   background-size: cover;
 }
 
+.branch-item .branch-photo.qro {
+  background-image: url(../images/oficinas-generales-guadalajara.jpg);
+  background-size: cover;
+}
+
+.branch-item .branch-photo.df {
+  background-image: url(../images/oficina-transpadex-df.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+
 .branch-item .branch-info {
   padding: 20px 15px 0 15px;
   overflow: hidden;

@@ -92,7 +92,7 @@
 
 	<div class="container-fluid bg-gray m-b-40 border-bottom-black">
 		<div class="row branch-item">
-			<div class="col-xs-5 branch-photo gdl"></div>
+			<div class="col-xs-5 branch-photo qro"></div>
 			<div class="col-xs-7 branch-info">
 				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm hidden">SUCURSAL EN QUERÉTARO</h2>
 				<div class="address">
@@ -120,7 +120,7 @@
 
 	<div class="container-fluid bg-gray border-bottom-black">
 		<div class="row branch-item">
-			<div class="col-xs-5 branch-photo gdl"></div>
+			<div class="col-xs-5 branch-photo df"></div>
 			<div class="col-xs-7 branch-info">
 				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm hidden">SUCURSAL EN DF</h2>
 				<div class="address">
@@ -143,9 +143,9 @@
 	<script>
 		function initialize()
 		{
-		    var latlng = {lat: 20.580445, lng: -103.317138};
-		    var latlng2 = {lat: 20.580445, lng: -103.317138};
-		    var latlng3 = {lat: 20.580445, lng: -103.317138};
+		    var latlng = {lat: 20.581057, lng: -103.317534};
+		    var latlng2 = {lat: 20.575056, lng: -100.324551};
+		    var latlng3 = {lat: 19.644411, lng: -99.208060};
 
 		    var myOptions =
 		    {
