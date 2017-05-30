@@ -10,7 +10,7 @@
 			<a class="navbar-brand" href="{{ url('/')}}"><img src="images/logo-transpadex.svg" alt="logo transpadex"></a>
 			<div class="call-us hidden-sm hidden-md hidden-lg">
 				<span class="icon-telefono red"></span>
-				<a href="tel:+521018003476036" class="red call-us-header">Llámanos</a>
+				<a href="tel:018003476036" class="red call-us-header">Llámanos</a>
 			</div>
 		</div>
 	
