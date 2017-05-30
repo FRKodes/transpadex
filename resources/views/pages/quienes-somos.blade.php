@@ -12,7 +12,7 @@
 		<p>A lo largo de 25 años se ha preocupado por innovar y diversificar sus servicios acorde a las necesidades de sus clientes, para brindar satisfacción en cada envío, con un servicio exprés y de alta calidad a cualquier parte de la república.</p>
 	</div>
 
-	<div class="container">
+	<div class="container timeline-container">
 		<div class="col-sm-5 col-md-3 history-item _1991">
 			<div class="title">1991</div>
 			<div class="description">Se adquiere la primera unidad Ford F350. Pioneros en el ramo de “Flete express” </div>
@@ -107,7 +107,7 @@
 				<div class="title oswald italic">Misión</div>
 				<div class="description">
 					<span class="hidden">Brindar soluciones integrales a los requerimientos de nuestros clientes; que tengan seguridad y confianza en sus traslados gracias a las óptimas condiciones en equipo de transporte y capacidad del personal.</span>
-					Transpadex tiene la misión de satisfacer las necesidades de transporte de sus cluentes, brindándoles soluciones integrales en cada uno de sus requerimientos; además de ofrecerles seguridad y confianza en sus traslados apoyándose de las óptimas condiciones de su equipo de transporte y capacidad del personal.
+					Transpadex tiene la misión de satisfacer las necesidades de transporte de sus clientes, brindándoles soluciones integrales en cada uno de sus requerimientos; además de ofrecerles seguridad y confianza en sus traslados apoyándose de las óptimas condiciones de su equipo de transporte y capacidad del personal.
 				</div>
 			</div>
 		</div>
