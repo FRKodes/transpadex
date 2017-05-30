@@ -9221,6 +9221,9 @@ footer ._25-years-footer img {
   .history-item {
     padding-bottom: 50px;
   }
+  .history-item .description {
+    font-size: .8em;
+  }
   .image-item {
     text-align: center;
   }
