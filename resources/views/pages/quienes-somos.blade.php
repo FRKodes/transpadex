@@ -101,7 +101,7 @@
 	<div class="container">
 		<div class="item mision row">
 			<div class="image-item col-sm-3 col-md-4 hidden-xs">
-				<img src="images/quienes-somos-mision.jpg" alt="quienes somos mision">
+				<img src="images/quienes-somos-mision-new.jpg" alt="quienes somos mision">
 			</div>
 			<div class="col-sm-9 col-md-8">
 				<div class="title oswald italic">Misión</div>
@@ -114,7 +114,7 @@
 
 		<div class="item vision row">
 			<div class="image-item col-sm-3 col-md-4 hidden-xs">
-				<img src="images/quienes-somos-vision.jpg" alt="quienes somos vision">
+				<img src="images/quienes-somos-vision-new.jpg" alt="quienes somos vision">
 			</div>
 			<div class="col-sm-9 col-md-8">
 				<div class="title oswald italic">Visión</div>
