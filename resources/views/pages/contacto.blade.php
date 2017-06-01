@@ -73,7 +73,7 @@
 					<p>
 						Carretera a Chapala No. 5010<br>
 						Col. Paseos del Lago. Tlaquepaque, Jalisco C.P. 45619 <br>
-						Tel. <a class="white" href="tel:+52 1 33 3657 6036">01 33 3657 6036</a> / <a class="white" href="tel:+52 1 33 3344 6999">01 33 3344 6999</a> <br>
+						Tel. <a class="white" href="tel:33 3657 6036">01 33 3657 6036</a> / <a class="white" href="tel:33 3344 6999">01 33 3344 6999</a> <br>
 						Mail: <a class="white" href="mailto:trafico@transpadex.com">trafico@transpadex.com</a> / <a class="white" href="mailto:atencion.clientes@transpadex.com">atencion.clientes@transpadex.com</a>
 					</p>
 				</div>
