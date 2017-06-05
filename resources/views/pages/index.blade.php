@@ -102,8 +102,8 @@
 					</div>
 					
 					<div class="item">
-						<h3 class="mayus">Surtido y armado de pedidos</h3> <br>
-						<h3 class="mayus">Distribución local y nacional</h3>
+						<h3 class="mayus"><span class="icon-check"></span> Surtido y armado de pedidos</h3> <br>
+						<h3 class="mayus"><span class="icon-check"></span> Distribución local y nacional</h3>
 					</div>
 				</div>
 			</div>
