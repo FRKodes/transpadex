@@ -42,7 +42,7 @@
 
 		<div class="col-sm-5 col-md-3 history-item _2001">
 			<div class="title">2001</div>
-			<div class="description">Se incorporan a la flotilla unidades tipo Rabón y Thorton. <br><br><br></div>
+			<div class="description">Se incorporan a la flotilla unidades tipo Rabón y Thorton. <br></div>
 			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
 		</div>
 		<div class="col-sm-1 arrow hidden-xs">
@@ -61,7 +61,7 @@
 
 		<div class="col-sm-5 col-md-3 history-item second-one">
 			<div class="title">2014</div>
-			<div class="description">Nos renovamos totalmente, cambiando el nombre a Transpadex. <br><br><br></div>
+			<div class="description">Nos renovamos totalmente, cambiando el nombre a Transpadex.<br></div>
 			<span class="icon-flecha-abajo red hidden-sm hidden-md hidden-lg"></span>
 		</div>
 		<div class="col-sm-1 arrow hidden-xs">
