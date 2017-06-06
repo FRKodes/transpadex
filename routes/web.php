@@ -18,3 +18,4 @@ Route::get('flotilla', 'PagesController@flotilla');
 Route::get('clientes', 'PagesController@clientes');
 Route::get('contacto', 'PagesController@contacto');
 Route::get('sucursales', 'PagesController@contacto');
+Route::post('sendmail', 'PagesController@sendmail');

@@ -559,10 +559,26 @@ h1.title-top
 #contactForm
 	padding-top: 30px
 	padding-bottom: 30px
+	position: relative
+.form-group.error
+	.form-control
+		border-color: rgba($red, .8)
+		transition: border-color .5s ease
 .form-control
 	border-radius: 0
 textarea
 	resize: none
+.sent_mail_alert
+	background-color: $back-fletes
+	color: white
+	text-align: center
+	padding: 20px 30px
+	position: absolute
+	width: 100%
+	bottom: 100px
+	display: none
+	b
+		font-size: 1.4em
 .submit
 	background-color: $back-fletes
 	border-color: $back-fletes
@@ -858,7 +874,6 @@ footer
 		padding-top: 0
 		overflow: hidden
 		border-bottom: 1px solid $gris
-		// background: transparent url(../images/colaborador.png) no-repeat right bottom
 		background-size: 250px
 		text-shadow: 2px 2px 8px #fff
 		padding-bottom: 50px
@@ -892,6 +907,12 @@ footer
 	h2.title-top
 		margin-top: 10px
 		margin-bottom: 10px
+	.sent_mail_alert
+		padding: 40px 100px
+		bottom: 200px
+		b
+			font-size: 1.6em
+			margin-bottom: 20px
 	.branch-item
 		.branch-photo
 			height: 319px

@@ -8626,6 +8626,12 @@ h1.title-top {
 #contactForm {
   padding-top: 30px;
   padding-bottom: 30px;
+  position: relative;
+}
+
+.form-group.error .form-control {
+  border-color: rgba(208, 51, 42, 0.8);
+  transition: border-color .5s ease;
 }
 
 .form-control {
@@ -8634,6 +8640,21 @@ h1.title-top {
 
 textarea {
   resize: none;
+}
+
+.sent_mail_alert {
+  background-color: #443c3a;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  position: absolute;
+  width: 100%;
+  bottom: 100px;
+  display: none;
+}
+
+.sent_mail_alert b {
+  font-size: 1.4em;
 }
 
 .submit {
@@ -9078,6 +9099,14 @@ footer ._25-years-footer img {
   h2.title-top {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .sent_mail_alert {
+    padding: 40px 100px;
+    bottom: 200px;
+  }
+  .sent_mail_alert b {
+    font-size: 1.6em;
+    margin-bottom: 20px;
   }
   .branch-item .branch-photo {
     height: 319px;

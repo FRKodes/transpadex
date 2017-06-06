@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Mail;
+use Illuminate\Support\Facades\Input as Input;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -34,6 +35,14 @@ class PagesController extends Controller
 	public function contacto()
 	{
 		return View('pages.contacto');
+	}
+
+	public function sendmail()
+	{
+		Mail::send('emails.contacto-mail', [], function($message)
+		{
+		    $message->to('frkalderon@gmail.com', 'Transpadex')->subject('Contacto desde transpadex.com');
+		});
 	}
 
 }
