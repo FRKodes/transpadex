@@ -41,6 +41,7 @@ class PagesController extends Controller
 	{
 		Mail::send('emails.contacto-mail', [], function($message)
 		{
+		    // $message->to('trafico@transpadex.com', 'Transpadex')->cc('frkalderon@gmail.com', 'Transpadex')->subject('Contacto desde transpadex.com');
 		    $message->to('frkalderon@gmail.com', 'Transpadex')->subject('Contacto desde transpadex.com');
 		});
 	}
