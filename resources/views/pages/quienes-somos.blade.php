@@ -1,5 +1,7 @@
 @extends('layout')
 
+@yield('title_description', 'Transpadex nació en el año de 1991, fruto de una tradición familiar de varias generaciones. A lo largo de 25 años se ha preocupado por innovar y diversificar sus servicios acorde a las necesidades de sus clientes, para brindar satisfacción en cada envío, con un servicio exprés y de alta calidad a cualquier parte de la república.')
+
 @section('content')
 	<div class="section-top-banner quienes-somos">
 		<div class="container">

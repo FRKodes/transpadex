@@ -1,5 +1,7 @@
 @extends('layout')
 
+@yield('title_description', 'Unidades de caja seca y plataforma, Servicio de Carga Completa (FTL), Servicio de Carga Consolidada (LTL), Unidades caja seca, Unidades Con riel logístico para sujetar y asegurar la carga.')
+
 @section('content')
 	<div class="section-top-banner flotilla">
 		<div class="container">

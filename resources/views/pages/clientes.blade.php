@@ -1,5 +1,7 @@
 @extends('layout')
 
+@yield('title_description', 'Algunos de nuestros clientes son brp, caffeino, cedap, collins, valle, femsa, ferromex, mirage, quala, sabic, sidel, wendy.')
+
 @section('content')
 	<div class="section-top-banner clientes">
 		<div class="container">

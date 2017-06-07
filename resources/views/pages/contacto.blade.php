@@ -1,5 +1,7 @@
 @extends('layout')
 
+@yield('title_description', 'CEDIS MATRIZ GDL Tels. 01 33 3657 6036 y 01 33 3344 6999, Sucursal en Querétaro Tel. 442 277 4583 y 33 22 55 54 55, Sucursal en DF Tel. 55 5881 9652, 55 7592 0526 y 33 14 79 27 24')
+
 @section('content')
 	<div class="section-top-banner contacto">
 		<div class="container">

@@ -1,5 +1,7 @@
 @extends('layout')
 
+@yield('title_description', 'Fletes express, almacenaje y distribución, servicio de camión desde  1 tonelada hasta 10 toneladas, así como servicio de camión de 48 y 53 pies.')
+
 @section('content')
 	<div class="container-fluid">
 		<div class="row">
