@@ -1,6 +1,6 @@
 @extends('layout')
 
-@yield('title_description', 'Fletes Express Cobertura Nacional, Recolección door to door, Asesoría en el Manejo, Seguro de carga opcional, Servicio por Cobrar, Maniobras de carga y descarga, Desarrollos según la necesidad, Rastreo satelital, Almacenamiento y distribución, Control de inventarios, Sistema de seguridad 24/7, Cross dock, Carga y descarga de unidades, Re empaque y etiquetado de producto, Surtido y armado de pedidos, Distribución local y nacional.')
+@section('title_description', 'Fletes Express Cobertura Nacional, Recolección door to door, Asesoría en el Manejo, Seguro de carga opcional, Servicio por Cobrar, Maniobras de carga y descarga, Desarrollos según la necesidad, Rastreo satelital, Almacenamiento y distribución, Control de inventarios, Sistema de seguridad 24/7, Cross dock, Carga y descarga de unidades, Re empaque y etiquetado de producto, Surtido y armado de pedidos, Distribución local y nacional.')
 
 @section('content')
 	<div class="section-top-banner servicios">

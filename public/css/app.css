@@ -8469,7 +8469,7 @@ h1 {
   font-size: 3em;
   margin-right: 10px;
   margin-left: 5px;
-  margin-top: 12px;
+  margin-top: 6px;
 }
 
 .item-container p {
@@ -8932,7 +8932,7 @@ footer ._25-years-footer img {
     padding: 80px 30px 20px 30px;
   }
   .info-service h2 {
-    font-size: 2em;
+    font-size: 2.6em;
   }
   .info-service h3 {
     font-size: 1.4em;
@@ -8992,6 +8992,10 @@ footer ._25-years-footer img {
   }
   .item-container p {
     font-size: 1em;
+  }
+  .storage-services {
+    padding: 60px 0;
+    background-position: center bottom;
   }
   /*QUIENES SOMOS*/
   .quienes-somos {
@@ -9393,6 +9397,10 @@ footer ._25-years-footer img {
   .col-sm-1.arrow {
     height: 120px;
   }
+  .storage-services {
+    padding: 60px 0;
+    background-position: center -420px;
+  }
 }
 
 @media screen and (min-width: 1800px) {
@@ -9426,5 +9434,8 @@ footer ._25-years-footer img {
   .section-top-banner.flotilla p {
     margin-top: 235px;
     font-size: 3em;
+  }
+  .storage-services {
+    background-position: center -680px;
   }
 }
