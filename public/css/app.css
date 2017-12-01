@@ -8018,9 +8018,8 @@ body {
 }
 
 .main-banners-container p .lines.one {
-  width: 120px;
-  bottom: 40px;
-  right: -70px;
+  bottom: 0px;
+  right: -30px;
 }
 
 .slick-dots {
@@ -8839,6 +8838,10 @@ footer ._25-years-footer img {
     right: -90px;
     width: 140px;
   }
+  .main-banners-container p .lines.one {
+    bottom: 0px;
+    right: -50px;
+  }
   .main-banners-container .slick-dots {
     bottom: 70px;
   }
@@ -9185,6 +9188,9 @@ footer ._25-years-footer img {
     bottom: -30px;
     right: -110px;
     width: 135px;
+  }
+  .main-banners-container p .lines.one {
+    bottom: 30px;
   }
   .home-title {
     font-size: 2.6em;

@@ -6,4 +6,4 @@
 <meta content="all" name="robots">
 <meta content="7 days" name="revisit-after">
 <title>Transpadex - @yield('title_description', 'Su aliado en transporte.')</title>
-<link href="/css/app.css?ver=1.0" rel="stylesheet" type="text/css">
+<link href="/css/app.css?ver=1.1" rel="stylesheet" type="text/css">
