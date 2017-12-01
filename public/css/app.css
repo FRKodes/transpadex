@@ -7997,6 +7997,10 @@ body {
   font-size: 3em;
 }
 
+.main-banners-container p span.custom-size {
+  font-size: 2em;
+}
+
 .main-banners-container p .lines {
   position: absolute;
   width: 85px;
@@ -8011,6 +8015,12 @@ body {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.main-banners-container p .lines.one {
+  width: 120px;
+  bottom: 40px;
+  right: -70px;
 }
 
 .slick-dots {

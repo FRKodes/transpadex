@@ -1,9 +1,9 @@
 <div class="item">
 	<p class="asap first">
 		<span class="one">Su aliado</span> <br>
-		<span class="two">en transporte</span> <br>
-		<span class="three">dedicado</span>
-		<span class="lines"><img src="images/lineas-titulares.svg" alt="lineas titulares"></span>
+		<span class="custom-size">en transporte</span> <br> <br>
+		{{-- <span class="three">dedicado</span> --}}
+		<span class="lines one"><img src="images/lineas-titulares.svg" alt="lineas titulares"></span>
 	</p>
 </div>
 <div class="item dos">

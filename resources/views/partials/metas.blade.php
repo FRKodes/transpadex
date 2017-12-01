@@ -5,5 +5,5 @@
 <meta name="keywords" content="fletes express, servicio de carga 1 tonelada, servicio de carga 3 tonelada, servicio de carga 5 tonelada, servicio de carga 10 toneladas, servicio transporte caja seca, almacenamiento y distribución, rastreo satelital, servicio por cobrar, cobertura nacional, recolección door to door, seguro de carga opcional, control de inventarios, cross dock, re empaque y etiquetado de producto, distribución local y nacional, surtido y armado de pedidos, sistema de seguridad 24/7, carga y descarga de unidades, unidades de caja seca y plataforma, servicio de carga completa (FTL), servicio de carga consolidada (LTL)">
 <meta content="all" name="robots">
 <meta content="7 days" name="revisit-after">
-<title>Transpadex - @yield('title_description', 'Su aliado en transporte dedicado.')</title>
-<link href="/css/app.css" rel="stylesheet" type="text/css">
+<title>Transpadex - @yield('title_description', 'Su aliado en transporte.')</title>
+<link href="/css/app.css?ver=1.0" rel="stylesheet" type="text/css">
