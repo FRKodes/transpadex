@@ -7917,6 +7917,7 @@ body {
 
 .nav > li > a {
   padding: 10px;
+  text-align: center;
 }
 
 .nav > li > a.login-btn {
@@ -7924,6 +7925,28 @@ body {
   color: white;
   border-radius: 4px;
   margin-left: 10px;
+  transition: background-color .5s ease;
+  margin-bottom: 5px;
+}
+
+.nav > li > a.login-btn:hover {
+  background-color: rgba(208, 51, 42, 0.95);
+  transition: background-color .5s ease;
+}
+
+.nav > li > a.login-btn-black {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  margin-left: 10px;
+  transition: background-color .5s ease;
+  margin-bottom: 5px;
+}
+
+.nav > li > a.login-btn-black:hover {
+  background-color: rgba(0, 0, 0, 0.95);
+  transition: background-color .5s ease;
+  color: gray;
 }
 
 .container > .navbar-header {
@@ -7943,7 +7966,7 @@ body {
 
 .main-banners-container .item {
   text-align: center;
-  background: transparent url(../images/banner-home-01.jpg) no-repeat center center;
+  background: transparent url(../images/transpadex-fletes-express-a-todo-mexico.jpg) no-repeat center center;
   background-size: cover;
   height: 180px;
   display: inline-block;
@@ -7951,21 +7974,34 @@ body {
 }
 
 .main-banners-container .item.dos {
-  background: transparent url(../images/banner-home-02.jpg) no-repeat center bottom;
+  background: transparent url(../images/transpadex-logistics-entregas-y-recolecciones-siempre-a-tiempo.jpg) no-repeat center center;
   background-size: cover;
+}
+
+.main-banners-container .item.dos p {
+  margin-left: 35%;
 }
 
 .main-banners-container .item.dos span.two {
   font-size: 1.2em;
 }
 
+.main-banners-container .item.dos_ {
+  background: transparent url(../images/banner-home-02.jpg) no-repeat center bottom;
+  background-size: cover;
+}
+
+.main-banners-container .item.dos_ span.two {
+  font-size: 1.2em;
+}
+
 .main-banners-container .item.tres {
-  background: transparent url(../images/banner-home-03.jpg) no-repeat center center;
+  background: transparent url(../images/transpadex-un-equipo-en-quien-puedes-confiar.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .main-banners-container .item.cuatro {
-  background: transparent url(../images/banner-home-04-new.jpg) no-repeat center center;
+  background: transparent url(../images/transpadex-almacenaje-y-distibucion-nacional.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -8813,6 +8849,10 @@ footer ._25-years-footer img {
   .navbar-default .navbar-brand img {
     width: 125px;
   }
+  .nav > li > a {
+    font-size: .75em;
+    padding: 10px 5px;
+  }
   .call-us-big {
     background: #d0332a;
     color: white;
@@ -8827,6 +8867,9 @@ footer ._25-years-footer img {
   }
   .main-banners-container .item {
     height: 460px;
+  }
+  .main-banners-container .item.dos p {
+    margin-left: 55%;
   }
   .main-banners-container p {
     padding-top: 250px;
@@ -9176,13 +9219,19 @@ footer ._25-years-footer img {
   .main-banners-container .item {
     height: 540px;
   }
+  .main-banners-container .item p.first {
+    margin-top: 60px;
+  }
+  .main-banners-container .item.dos p {
+    margin-left: 55%;
+  }
   .main-banners-container p {
     padding-top: 185px;
     font-size: 2em;
     width: 340px;
   }
   .main-banners-container p.first {
-    left: 15%;
+    left: 0;
   }
   .main-banners-container p .lines {
     bottom: -30px;
@@ -9191,6 +9240,10 @@ footer ._25-years-footer img {
   }
   .main-banners-container p .lines.one {
     bottom: 30px;
+  }
+  .main-banners-container .slick-dots {
+    bottom: 0;
+    margin-top: -120px;
   }
   .home-title {
     font-size: 2.6em;
@@ -9370,6 +9423,10 @@ footer ._25-years-footer img {
 }
 
 @media screen and (min-width: 1200px) {
+  .nav > li > a {
+    font-size: 1em;
+    padding: 10px;
+  }
   .row.who-we-are .back-image {
     right: 130px;
     width: 470px;

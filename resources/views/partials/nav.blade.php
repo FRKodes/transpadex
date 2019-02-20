@@ -21,9 +21,9 @@
 				<li class="@if (Request::is('quienes-somos')) active @endif"><a href="{{ url('quienes-somos') }}">Quienes Somos</a></li>
 				<li class="@if (Request::is('flotilla')) active @endif"><a href="{{ url('flotilla') }}">Flotilla</a></li>
 				<li class="@if (Request::is('clientes')) active @endif"><a href="{{ url('clientes') }}">Clientes</a></li>
-				{{-- <li class="@if (Request::is('contacto')) active @endif"><a href="{{ url('contacto') }}">Contacto</a></li> --}}
 				<li class="@if (Request::is('sucursales')) active @endif"><a href="{{ url('sucursales') }}">Sucursales</a></li>
-				<li ><a class="login-btn white" target="_blank" href="http://transpadex.no-ip.org/clientes/">Login</a></li>
+				<li ><a class="login-btn white" target="_blank" href="http://transpadex.no-ip.org/clientes/">Login Fletes</a></li>
+				<li ><a class="login-btn-black white" target="_blank" href="http://transpadex.silogistics.org/">Login Almacenamiento</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>

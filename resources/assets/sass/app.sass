@@ -93,11 +93,28 @@ body
 			display: inline-block
 .nav > li > a
 	padding: 10px
+	text-align: center
 	&.login-btn
 		background-color: $red
 		color: white
 		border-radius: 4px
 		margin-left: 10px
+		transition: background-color .5s ease
+		margin-bottom: 5px
+		&:hover
+			background-color: rgba($red, .95)
+			transition: background-color .5s ease
+	&.login-btn-black
+		background-color: black
+		color: white
+		border-radius: 4px
+		margin-left: 10px
+		transition: background-color .5s ease
+		margin-bottom: 5px
+		&:hover
+			background-color: rgba(black, .95)
+			transition: background-color .5s ease
+			color: gray
 .container > .navbar-header
 	display: flex
 	justify-content: space-between
@@ -107,22 +124,30 @@ body
 	overflow: hidden
 	.item
 		text-align: center
-		background: transparent url(../images/banner-home-01.jpg) no-repeat center center
+		background: transparent url(../images/transpadex-fletes-express-a-todo-mexico.jpg) no-repeat center center
 		background-size: cover
 		height: 180px
 		display: inline-block
 		width: 100%
 		&.dos
+			background: transparent url(../images/transpadex-logistics-entregas-y-recolecciones-siempre-a-tiempo.jpg) no-repeat center center
+			background-size: cover
+			p
+				margin-left: 35%
+			span.two
+				font-size: 1.2em
+		&.dos_
 			background: transparent url(../images/banner-home-02.jpg) no-repeat center bottom
 			background-size: cover
 			span.two
 				font-size: 1.2em
 		&.tres
-			background: transparent url(../images/banner-home-03.jpg) no-repeat center center
+			background: transparent url(../images/transpadex-un-equipo-en-quien-puedes-confiar.jpg) no-repeat center center
 			background-size: cover
 		&.cuatro
-			background: transparent url(../images/banner-home-04-new.jpg) no-repeat center center
+			background: transparent url(../images/transpadex-almacenaje-y-distibucion-nacional.jpg) no-repeat center center
 			background-size: cover
+
 	p
 		color: white
 		width: 185px
@@ -681,6 +706,11 @@ footer
 			padding-top: 20px
 			img
 				width: 125px
+	
+	.nav > li > a
+		font-size: .75em
+		padding: 10px 5px
+
 	.call-us-big
 		background: $red
 		color: white
@@ -692,6 +722,9 @@ footer
 		height: 460px
 		.item
 			height: 460px
+			&.dos
+				p
+					margin-left: 55%
 		p
 			padding-top: 250px
 			font-size:  1.6em
@@ -962,18 +995,26 @@ footer
 		height: 540px
 		.item
 			height: 540px
+			p.first
+				margin-top: 60px
+			&.dos
+				p
+					margin-left: 55%
 		p
 			padding-top: 185px
 			font-size:  2em
 			width: 340px
 			&.first
-				left: 15%
+				left: 0
 			.lines
 				bottom: -30px
 				right: -110px
 				width: 135px
 				&.one
 					bottom: 30px
+		.slick-dots
+			bottom: 0
+			margin-top: -120px
 	.home-title
 		font-size: 2.6em
 		margin-top: 30px
@@ -1112,6 +1153,9 @@ footer
 			li
 				margin: 20px 10px 0 0
 @media screen and (min-width: 1200px)
+	.nav > li > a
+		font-size: 1em
+		padding: 10px
 	.row.who-we-are
 		.back-image
 			right: 130px
