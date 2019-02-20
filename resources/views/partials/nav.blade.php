@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="{{ url('/')}}"><img src="images/logo-transpadex.svg" alt="logo transpadex"></a>
+			<a class="navbar-brand" href="{{ url('/')}}"><img src="images/logo-transpadex-logistics.svg" alt="logo transpadex logistics"></a>
 			<div class="call-us hidden-sm hidden-md hidden-lg">
 				<span class="icon-telefono red"></span>
 				<a href="tel:018003476036" class="red call-us-header">Llámanos</a>
