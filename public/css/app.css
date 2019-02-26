@@ -8189,7 +8189,7 @@ body {
 }
 
 ._25-years {
-  background: #e83024;
+  background: #FFF;
   color: white;
   text-align: center;
 }
@@ -8199,6 +8199,7 @@ body {
   padding-bottom: 30px;
   font-size: 1.4em;
   line-height: 1.2em;
+  color: black;
 }
 
 ._25-years-text span.one {
@@ -8958,7 +8959,7 @@ footer ._25-years-footer img {
     color: black;
   }
   ._25-years {
-    background: #e83024 url(../images/25-years.png) no-repeat center right;
+    background: #FFF url(../images/25-years.png) no-repeat center right;
     background-size: 80%;
   }
   ._25-years img.cert {
@@ -9278,9 +9279,6 @@ footer ._25-years-footer img {
   .certs img.cert {
     height: 80px;
     width: auto;
-  }
-  .certs img.cert.iso {
-    height: 120px;
   }
   .fletes-container .item {
     padding-bottom: 90px;

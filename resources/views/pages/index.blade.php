@@ -46,8 +46,8 @@
 					<p class="_25-years-text hidden-sm hidden-md hidden-lg asap">Más de <span class="one">25 años</span><br>de <span class="one">experiencia</span></p>
 					<p class="_25-years-text hidden-xs asap">Más de <span>25 años</span> de experiencia</p>
 					<p class="text-center certs">
-						<img class="cert hidden-xs" src="images/neec-logo.svg" alt="neec">
-						<img class="cert iso hidden-xs" src="images/ISO-98.svg" alt="ISO 98">
+						<img class="cert hidden-xs" src="images/oea.svg" alt="oea">
+						<img class="cert iso hidden-xs" src="images/c-tpat.svg" alt="c-tpat">
 					</p>
 					<p class="text-25-years hidden-xs hidden-sm">
 						Contamos con más de 25 años de experiencia en transporte, teniendo la misión de superar las expectativas de nuestros clientes en sus necesidades de transporte.
@@ -133,7 +133,7 @@
 						Colonia Cumbres de Conin<br>
 						El Marques, Qro. <br>
 						Tel. <a href="tel:442 277 4583">442 277 4583</a> <br>
-						Mail <a href="mailto:ventasqro@transpadex.com.mx">ventasqro@transpadex.com.mx</a> <br>
+						Mail <a href="mailto:ventasqro@transpadex.com.mx">ventasqro@transpadex.com.mx</a> / <a href="mailto:traficoqro@transpadex.com.mx">traficoqro@transpadex.com.mx</a> <br>
 						Mobile <a href="tel:33 22 55 54 55">33 22 55 54 55</a> <br>
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/queretaro.svg" alt="querétaro" class="state"></a>
@@ -141,12 +141,11 @@
 				<div class="item col-sm-4">
 					<div class="title oswald italic">SUCURSAL MÉXICO</div>
 					<div class="address">
-						Avance no. 10, col. Atlanta, <br>
-						Cuautitlan Izcalli, Estado de Mexico <br>
-						CP 54740 <br>
-						Oficina <a href="tel:55 5881 9652">55 5881 9652</a> / <a href="tel:55 7592 0526">55 7592 0526</a> <br>
-						Mail: <a href="mailto:ventasmx@transpadex.com">ventasmx@transpadex.com</a>  <br>
-						Celular <a href="tel:+52 1 33 14 79 27 24">33 14 79 27 24</a> <br>
+						Andador Austria no. 1 Int 302. Centro Urbano,<br>
+						Cuautitlán Izcalli, Edo. Mexico. <br>
+						Oficina <a href="tel:55 7592 0526">55 7592 0526</a> <br>
+						Mail: <a href="mailto:ventasmx@transpadex.com">ventasmx@transpadex.com</a> / <a href="mailto:traficomx@transpadex.com.mx">traficomx@transpadex.com.mx</a>  <br>
+						Celular <a href="tel:+52 1 33 3201 0567">33 3201 0567</a> / <a href="tel:+52 1 33 1699 8072">33 1699 8072</a> <br>
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/cdmx.svg" alt="cdmx" class="state"></a>
 				</div>

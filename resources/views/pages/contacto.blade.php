@@ -98,7 +98,7 @@
 						Colonia Cumbres de Conin. <br>
 						El Marques, Qro. <br>
 						Tel. <a class="white" href="tel:442 277 4583">442 277 4583</a> <br>
-						Mail <a class="white" href="mailto:ventasqro@transpadex.com.mx">ventasqro@transpadex.com.mx</a> <br>
+						Mail <a class="white" href="mailto:ventasqro@transpadex.com.mx">ventasqro@transpadex.com.mx</a> / <a class="white" href="mailto:traficoqro@transpadex.com.mx">traficoqro@transpadex.com.mx</a> <br>
 						Mobile <a class="white" href="tel:33 22 55 54 55">33 22 55 54 55</a> <br> <br><br>
 					</p>
 				</div>
@@ -122,12 +122,11 @@
 				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm hidden">SUCURSAL EN DF</h2>
 				<div class="address">
 					<p>
-						Avance no. 10, col. Atlanta, <br>
-						Cuautitlan Izcalli, Estado de Mexico <br>
-						CP 54740 <br>
-						Oficina <a class="white" href="tel:55 5881 9652">55 5881 9652</a> / <a class="white" href="tel:55 7592 0526">55 7592 0526</a> <br>
-						Mail: <a class="white" href="mailto:ventasmx@transpadex.com">ventasmx@transpadex.com</a>  <br>
-						Celular <a class="white" href="tel:33 14 79 27 24">33 14 79 27 24</a> <br> <br>
+						Andador Austria no. 1 Int 302. Centro Urbano,<br>
+						Cuautitlán Izcalli, Edo. Mexico. <br>
+						Oficina <a class="white" href="tel:55 7592 0526">55 7592 0526</a> <br>
+						Mail: <a class="white" href="mailto:ventasmx@transpadex.com">ventasmx@transpadex.com</a> / <a class="white" href="mailto:traficomx@transpadex.com.mx">traficomx@transpadex.com.mx</a><br>
+						Celular <a href="tel:+52 1 33 3201 0567">33 3201 0567</a> / <a href="tel:+52 1 33 1699 8072">33 1699 8072</a> <br> <br>
 					</p>
 				</div>
 				<div class="map" id="map_3"></div>
