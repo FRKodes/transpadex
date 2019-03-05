@@ -6,4 +6,4 @@
 <meta content="all" name="robots">
 <meta content="7 days" name="revisit-after">
 <title>Transpadex - @yield('title_description', 'Su aliado en transporte. Somos una empresa dedicada al transporte de carga a toda la república, teniendo como base Guadalajara, contando con sucursales en México y Querétaro.')</title>
-<link href="/css/app.css?ver=1.4" rel="stylesheet" type="text/css">
+<link href="/css/app.css?ver=1.5" rel="stylesheet" type="text/css">
