@@ -43,14 +43,14 @@
 		<div class="row _25-years">
 			<div class="container">
 				<div class="col-sm-10 col-sm-offset-1">
-					<p class="_25-years-text hidden-sm hidden-md hidden-lg asap">Más de <span class="one">25 años</span><br>de <span class="one">experiencia</span></p>
-					<p class="_25-years-text hidden-xs asap">Más de <span>25 años</span> de experiencia</p>
+					<p class="_25-years-text hidden-sm hidden-md hidden-lg asap">Más de <span class="one">28 años</span><br>de <span class="one">experiencia</span></p>
+					<p class="_25-years-text hidden-xs asap">Más de <span>28 años</span> de experiencia</p>
 					<p class="text-center certs">
 						<img class="cert hidden-xs" src="images/oea.svg" alt="oea">
 						<img class="cert iso hidden-xs" src="images/c-tpat.svg" alt="c-tpat">
 					</p>
 					<p class="text-25-years hidden-xs hidden-sm">
-						Contamos con más de 25 años de experiencia en transporte, teniendo la misión de superar las expectativas de nuestros clientes en sus necesidades de transporte.
+						Contamos con más de 28 años de experiencia en transporte, teniendo la misión de superar las expectativas de nuestros clientes en sus necesidades de transporte.
 					</p>
 					<ul class="features hidden-xs hidden-sm hidden">
 						<li>Libero, nisi excepturi ut dolorem consequatur vitae molestias .</li>
@@ -114,7 +114,7 @@
 
 		<div class="row branches">
 			<div class="container">
-				<div class="item col-sm-4">
+				<div class="item col-sm-6">
 					<div class="title oswald italic">OFICINAS GENERALES</div>
 					<div class="address">
 						Carretera a Chapala No. 5010<br>
@@ -126,7 +126,7 @@
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/jalisco.svg" alt="jalisco" class="state"></a>
 				</div>
-				<div class="item col-sm-4">
+				<div class="item col-sm-6">
 					<div class="title oswald italic">SUCURSAL QUERÉTARO</div>
 					<div class="address">
 						Calle Xocotl no. 14, <br>
@@ -138,7 +138,7 @@
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/queretaro.svg" alt="querétaro" class="state"></a>
 				</div>
-				<div class="item col-sm-4">
+				<div class="item col-sm-6">
 					<div class="title oswald italic">SUCURSAL MÉXICO</div>
 					<div class="address">
 						Andador Austria no. 1 Int 302. Centro Urbano,<br>
@@ -148,6 +148,17 @@
 						Celular <a href="tel:+52 1 33 3201 0567">33 3201 0567</a> / <a href="tel:+52 1 33 1699 8072">33 1699 8072</a> <br>
 					</div>
 					<a href="{{ url('contacto') }}#sucursales"><img src="images/cdmx.svg" alt="cdmx" class="state"></a>
+				</div>
+				<div class="item col-sm-6">
+					<div class="title oswald italic">SUCURSAL MONTERREY</div>
+					<div class="address">
+						Blvd. Julián Treviño #806 Poniente, Int. B <br>
+						Apodaca Nuevo León <br>
+						C.P. 66601 <br>
+						Mail: <a href="mailto:traficomty@transpadex.com.mx">traficomty@transpadex.com.mx</a> <br>
+						Celular: +52 1 33 2258 9183 <br>
+					</div>
+					<a href="{{ url('contacto') }}#sucursales"><img src="images/nuevo-leon.svg" alt="Monterrey Nuevo León" class="state"></a>
 				</div>
 			</div>
 		</div>

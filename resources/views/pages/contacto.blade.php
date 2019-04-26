@@ -1,6 +1,6 @@
 @extends('layout')
 
-@yield('title_description', 'CEDIS MATRIZ GDL Tels. 01 33 3657 6036 y 01 33 3344 6999, Sucursal en Querétaro Tel. 442 277 4583 y 33 22 55 54 55, Sucursal en DF Tel. 55 5881 9652, 55 7592 0526 y 33 14 79 27 24')
+@section('title_description', 'CEDIS MATRIZ GDL Tels. 01 33 3657 6036 y 01 33 3344 6999, Sucursal en Querétaro Tel. 442 277 4583 y 33 22 55 54 55, Sucursal en DF Tel. 55 5881 9652, 55 7592 0526 y 33 14 79 27 24')
 
 @section('content')
 	<div class="section-top-banner contacto">
@@ -133,6 +133,35 @@
 			</div>
 		</div>
 	</div>
+	
+	<br>
+	<br>
+	<div class="container-fluid bg-red">
+		<div class="row">
+			<div class="container">
+				<h2 class="title-top white oswald italic text-center">SUCURSAL EN MTY</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-gray border-bottom-black">
+		<div class="row branch-item">
+			<div class="col-xs-5 branch-photo mty"></div>
+			<div class="col-xs-7 branch-info">
+				<h2 class="title-top white oswald italic text-center hidden-xs hidden-sm hidden">SUCURSAL EN MONTERREY</h2>
+				<div class="address">
+					<p>
+						Blvd. Julián Treviño #806 Poniente, Int. B <br>
+						Apodaca Nuevo León <br>
+						C.P. 66601 <br>
+						Mail: <a class="white" href="mailto:traficomty@transpadex.com.mx">traficomty@transpadex.com.mx</a> <br>
+						Celular: <a href="tel:+52 1 33 2258 9183">+52 1 33 2258 9183</a> <br>
+					</p>
+				</div>
+				<div class="map" id="map_4"></div>
+			</div>
+		</div>
+	</div>
 @stop
 
 @section('scripts')
@@ -142,6 +171,7 @@
 		    var latlng = {lat: 20.581057, lng: -103.317534};
 		    var latlng2 = {lat: 20.575056, lng: -100.324551};
 		    var latlng3 = {lat: 19.644411, lng: -99.208060};
+		    var latlng4 = {lat: 25.748817, lng: -100.211182};
 
 		    var myOptions =
 		    {
@@ -167,9 +197,18 @@
 		        mapTypeId: google.maps.MapTypeId.ROADMAP
 		    };
 
+		    var myOptions4 =
+		    {
+		        zoom: 15,
+		        scrollwheel: false,
+		        center: latlng4,
+		        mapTypeId: google.maps.MapTypeId.ROADMAP
+		    };
+
 		    var map = new google.maps.Map(document.getElementById("map_1"), myOptions);
 		    var map2 = new google.maps.Map(document.getElementById("map_2"), myOptions2);
 		    var map3 = new google.maps.Map(document.getElementById("map_3"), myOptions3);
+		    var map4 = new google.maps.Map(document.getElementById("map_4"), myOptions4);
 
 		    var myMarker = new google.maps.Marker(
 		    {
@@ -190,6 +229,13 @@
 		        position: latlng3,
 		        map: map3,
 		        title:"DF"
+		    });
+
+		    var myMarker4 = new google.maps.Marker(
+		    {
+		        position: latlng4,
+		        map: map4,
+		        title:"MTY"
 		    });
 		}
 	</script>
